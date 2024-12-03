@@ -79,7 +79,7 @@
         "bundleIdentifier": "com.google.ios.youtubemusic",
         "subtitle": "The best enhancer for YouTube Music",
         "version": "7.29.1 (2.3)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
+        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.29.1.ipa",
         "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
         "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
         "tintColor": "FF0033",
@@ -93,12 +93,12 @@
         ]
       },
       {
-        "name": "YouTube Music Ultimate (iOS14)",
+        "name": "YTMusic Ultimate (iOS14)",
         "developerName": "dvntm",
         "bundleIdentifier": "com.google.ios14.youtubemusic",
         "subtitle": "The best enhancer for YouTube Music",
         "version": "7.02.2 (2.3)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2_og.ipa",
+        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2_og.ipa",
         "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
         "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
         "tintColor": "FF0033",
