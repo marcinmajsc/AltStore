@@ -241,8 +241,8 @@
                     "minOSVersion": "15.0",
                     "date": "2024-11-27",
                     "size": 71984126,
-                    "downloadURL": "Infuse Plus v1.3.2\n\nhttps://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
-                    "localizedDescription": "- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8"
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
+                    "localizedDescription": "Infuse Plus v1.3.2\n\n- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8"
                 }
             ]
         },
