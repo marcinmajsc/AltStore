@@ -169,7 +169,7 @@
                     "minOSVersion": "15.0",
                     "date": "2024-12-01",
                     "size": 82200077,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.29.1.ipa",
                     "localizedDescription": "YouTube Music Ultimate v2.3\n\n- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button"
                 }
             ]
@@ -205,7 +205,7 @@
                     "minOSVersion": "14.0",
                     "date": "2024-12-01",
                     "size": 67357569,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2.ipa",
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2.ipa",
                     "localizedDescription": "YouTube Music Ultimate v2.3\n\n- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button"
                 }
             ]
@@ -275,7 +275,7 @@
                     "minOSVersion": "14.0",
                     "date": "2024-11-27",
                     "size": 71998707,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_1.3+7.8.4.ipa",
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3+7.8.4.ipa",
                     "localizedDescription": "Infuse Plus v1.3\n\n- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8"
                 }
             ]
