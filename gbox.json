@@ -9,7 +9,7 @@
     "appCategories": [
         "Apps"
     ],
-    "appRepositories": [
+    "apps": [
         {
             "name": "YouTube Plus",
             "version": "5.1 (19.47.7)",
