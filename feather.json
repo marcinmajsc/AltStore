@@ -1,0 +1,133 @@
+{
+  "name": "Dan's Workshop",
+  "identifier": "com.dvntm.workshop",
+  "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/sidestore.json",
+  "apps": [
+    {
+      "name": "YouTube Plus",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "subtitle": "A flexible enhancer for YouTube app",
+      "version": "19.47.7 (5.1)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.47.7_og.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "size": 109624562,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ]
+    },
+    {
+      "name": "YouTube Plus + Tweaks",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "subtitle": "YouTube Plus with additional tweaks",
+      "version": "19.47.7 (5.1)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "size": 109766550,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ]
+    },
+    {
+      "name": "YouTube Plus (iOS14)",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "subtitle": "A flexible enhancer for YouTube app",
+      "version": "19.20.2 (5.1)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.20.2_og.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "size": 107912700,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ]
+    },
+    {
+      "name": "YouTube Music Ultimate",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "version": "7.29.1 (2.3)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "size": 82200077,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
+      ]
+    },
+    {
+      "name": "YouTube Music Ultimate (iOS14)",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "version": "7.02.2 (2.3)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2_og.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "size": 67357569,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
+      ]
+    },
+    {
+      "name": "Infuse Plus",
+      "bundleIdentifier": "com.firecore.infuse",
+      "subtitle": "Enhancer for Infuse app",
+      "version": "8.0.4 (1.3.2)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "size": 71984126,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
+      ]
+    },
+    {
+      "name": "Infuse Plus (iOS14)",
+      "bundleIdentifier": "com.firecore.infuse7",
+      "subtitle": "Enhancer for Infuse app",
+      "version": "7.8.4 (1.3)",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_1.3+7.8.4_og.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "size": 71998707,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
+      ]
+    }
+  ]
+}
