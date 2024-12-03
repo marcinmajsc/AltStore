@@ -106,7 +106,7 @@
             "version": "1.3 (7.8.4)",
             "versionDate": "2024-12-01",
             "versionDescription": "- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_1.3+7.8.4_og.ipa",
+            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3+7.8.4_og.ipa",
             "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
             "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
             "tintColor": "FF8800",
