@@ -1,6 +1,8 @@
 {
+    "version": "1.0",
     "sourceName": "Dan's Workshop",
     "sourceAuthor": "dvntm",
+    "sourceExportEnable": true,
     "sourceLinkTitle": "Patreon",
     "sourceLinkUrl": "https://patreon.com/dayanch96",
     "sourceImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
@@ -9,68 +11,82 @@
     "appCategories": [
         "Apps"
     ],
-    "apps": [
+    "appRepositories": [
         {
-            "name": "YouTube Plus",
-            "version": "5.1 (19.47.7)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.47.7.ipa",
-            "localizedDescription": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "YouTube Plus",
+            "appVersion": "5.1 (19.47.7)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.47.7.ipa",
+            "appDescription": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
         },
 
         {
-            "name": "YouTube Plus + Tweaks",
-            "version": "5.1 (19.47.7)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
-            "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "YouTube Plus + Tweaks",
+            "appVersion": "5.1 (19.47.7)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
+            "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
         },
 
         {
-            "name": "YouTube Plus (iOS14)",
-            "version": "5.1 (19.47.7)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
-            "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "YouTube Plus (iOS14)",
+            "appVersion": "5.1 (19.47.7)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
+            "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
         },
 
         {
-            "name": "YouTube Music Ultimate",
-            "version": "2.3 (7.29.1)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
-            "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "YouTube Music Ultimate",
+            "appVersion": "2.3 (7.29.1)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
+            "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
         },
 
         {
-            "name": "YouTube Music Ultimate (iOS14)",
-            "version": "2.3 (7.02.2)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2.ipa",
-            "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "YouTube Music Ultimate (iOS14)",
+            "appVersion": "2.3 (7.02.2)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2.ipa",
+            "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
         },
 
         {
-            "name": "Infuse Plus",
-            "version": "1.3.2 (8.0.4)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
-            "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "Infuse Plus",
+            "appVersion": "1.3.2 (8.0.4)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
+            "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
         },
 
         {
-            "name": "Infuse Plus (iOS14)",
-            "version": "1.3 (7.8.4)",
-            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_1.3+7.8.4.ipa",
-            "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
-            "versionDate": "2024-12-01T00:00:00+03:00",
-            "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png"
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appName": "Infuse Plus (iOS14)",
+            "appVersion": "1.3 (7.8.4)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_1.3+7.8.4.ipa",
+            "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
         }
     ]
 }
