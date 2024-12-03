@@ -46,8 +46,7 @@
             },
             "versions": [
                 {
-                    "version": "19.47.7",
-                    "buildVersion": "1",
+                    "version": "19.47.07",
                     "minOSVersion": "15.0",
                     "date": "2024-12-01",
                     "size": 109624562,
@@ -90,7 +89,6 @@
             "versions": [
                 {
                     "version": "19.47.7",
-                    "buildVersion": "2",
                     "minOSVersion": "15.0",
                     "date": "2024-12-01",
                     "size": 109766550,
