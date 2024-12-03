@@ -66,7 +66,7 @@
     {
       "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "subtitle": "The best enhancer for YouTube Music",
       "version": "7.29.1 (2.3)",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.29.1.ipa",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
@@ -82,7 +82,7 @@
     {
       "name": "YouTube Music Ultimate (iOS14)",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "subtitle": "The best enhancer for YouTube Music",
       "version": "7.02.2 (2.3)",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/ytmu_2.3+7.02.2_og.ipa",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
