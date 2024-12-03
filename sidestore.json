@@ -16,19 +16,17 @@
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
       "tintColor": "E36678",
       "size": 109624562,
-      "screenshotURLs": {
-          "iphone-standard": [
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-        ]
-      },
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ],
       "permissions": [
         {
           "type": "photos",
