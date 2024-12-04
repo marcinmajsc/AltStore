@@ -32,6 +32,20 @@
                 "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "get-task-allow",
+                    "com.apple.developer.device-information.user-assigned-device-name",
+                    "com.apple.developer.group-session",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
                 "privacy": {
                     "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
                     "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
@@ -40,7 +54,9 @@
                     "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
                     "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
                     "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
-                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app."
+                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app.",
+                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
                 }
             },
             "versions": [
@@ -74,6 +90,20 @@
                 "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "get-task-allow",
+                    "com.apple.developer.device-information.user-assigned-device-name",
+                    "com.apple.developer.group-session",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
                 "privacy": {
                     "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
                     "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
@@ -82,7 +112,9 @@
                     "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
                     "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
                     "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
-                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app."
+                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app.",
+                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
                 }
             },
             "versions": [
@@ -116,6 +148,20 @@
                 "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "com.apple.developer.usernotifications.time-sensitive",
+                    "get-task-allow",
+                    "com.apple.developer.device-information.user-assigned-device-name",
+                    "com.apple.developer.group-session",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
                 "privacy": {
                     "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
                     "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
@@ -124,7 +170,9 @@
                     "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
                     "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
                     "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
-                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app."
+                    "NSPhotoLibraryAddUsageDescription": "This lets you save downloaded media to the Photos app.",
+                    "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+                    "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
                 }
             },
             "versions": [
@@ -154,13 +202,27 @@
                 "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.carplay-audio",
+                    "com.apple.developer.mediasetup",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
                 "privacy": {
                     "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
                     "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
                     "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
                     "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
                     "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
-                    "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+                    "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos.",
+                    "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+                    "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices."
                 }
             },
             "versions": [
@@ -190,13 +252,27 @@
                 "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.carplay-audio",
+                    "com.apple.developer.mediasetup",
+                    "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+                    "keychain-access-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.networking.wifi-info"
+                ],
                 "privacy": {
                     "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
                     "NSBluetoothPeripheralUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
                     "NSPhotoLibraryAddUsageDescription": "To save images, allow YouTube Music to access your photo library.",
                     "NSLocalNetworkUsageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV.",
                     "NSMicrophoneUsageDescription": "This lets you include audio with your videos.",
-                    "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
+                    "NSPhotoLibraryUsageDescription": "To choose a profile picture, allow YouTube Music to access your photos.",
+                    "NSContactsUsageDescription": "This will allow you to invite your family into your membership plan.",
+                    "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices."
                 }
             },
             "versions": [
@@ -227,11 +303,25 @@
                 "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.networking.wifi-info",
+                    "com.apple.developer.ubiquity-container-identifiers",
+                    "com.apple.developer.icloud-container-environment",
+                    "com.apple.developer.icloud-container-identifiers",
+                    "com.apple.developer.user-fonts",
+                    "com.apple.developer.icloud-services",
+                    "com.apple.developer.ubiquity-kvstore-identifier"
+                ],
                 "privacy": {
                     "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled",
                     "NSMicrophoneUsageDescription": "Used for pairing with external devices",
                     "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
-                    "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices"
+                    "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+                    "NSCameraUsageDescription": "Used for scanning QR codes",
+                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices"
                 }
             },
             "versions": [
@@ -262,11 +352,25 @@
                 "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
             ],
             "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.networking.wifi-info",
+                    "com.apple.developer.ubiquity-container-identifiers",
+                    "com.apple.developer.icloud-container-environment",
+                    "com.apple.developer.icloud-container-identifiers",
+                    "com.apple.developer.user-fonts",
+                    "com.apple.developer.icloud-services",
+                    "com.apple.developer.ubiquity-kvstore-identifier"
+                ],
                 "privacy": {
                     "NSFaceIDUsageDescription": "Used for unlocking your device when restrictions are enabled",
                     "NSMicrophoneUsageDescription": "Used for pairing with external devices",
                     "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
-                    "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices"
+                    "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
+                    "NSCameraUsageDescription": "Used for scanning QR codes",
+                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices"
                 }
             },
             "versions": [
