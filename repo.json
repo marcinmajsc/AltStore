@@ -321,7 +321,8 @@
                     "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
                     "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
                     "NSCameraUsageDescription": "Used for scanning QR codes",
-                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices"
+                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+                    "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos."
                 }
             },
             "versions": [
@@ -370,7 +371,8 @@
                     "NSLocalNetworkUsageDescription": "Used to discover network shares and Google Cast devices in your local network",
                     "NSBluetoothPeripheralUsageDescription": "Used for streaming media to external devices",
                     "NSCameraUsageDescription": "Used for scanning QR codes",
-                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices"
+                    "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
+                    "NSAppleMusicUsageDescription": "Please allow access in order to show iTunes videos."
                 }
             },
             "versions": [
