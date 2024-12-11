@@ -61,11 +61,11 @@
             },
             "versions": [
                 {
-                    "version": "19.47.07",
+                    "version": "19.49.05",
                     "minOSVersion": "15.0",
-                    "date": "2024-12-01",
-                    "size": 109624562,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.47.7.ipa",
+                    "date": "2024-12-11T16:30:00+03:00",
+                    "size": 117630285,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.49.5_alt.ipa",
                     "localizedDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support"
                 }
             ]
@@ -119,11 +119,11 @@
             },
             "versions": [
                 {
-                    "version": "19.47.7",
+                    "version": "19.49.5",
                     "minOSVersion": "15.0",
-                    "date": "2024-12-01",
-                    "size": 109766550,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.47.7.ipa",
+                    "date": "2024-12-11T16:30:00+03:00",
+                    "size": 110469413,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
                     "localizedDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support"
                 }
             ]
@@ -227,11 +227,11 @@
             },
             "versions": [
                 {
-                    "version": "7.29.1",
+                    "version": "7.31.1",
                     "minOSVersion": "15.0",
-                    "date": "2024-12-01",
-                    "size": 82200077,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.29.1.ipa",
+                    "date": "2024-12-11T16:30:00+03:00",
+                    "size": 82497989,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.31.1.ipa",
                     "localizedDescription": "YouTube Music Ultimate v2.3\n\n- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button"
                 }
             ]
@@ -327,11 +327,11 @@
             },
             "versions": [
                 {
-                    "version": "8.0.4",
+                    "version": "8.0.5",
                     "minOSVersion": "15.0",
-                    "date": "2024-11-27",
-                    "size": 71984126,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.4.ipa",
+                    "date": "2024-12-01T00:00:00+03:00",
+                    "size": 71988062,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.5.ipa",
                     "localizedDescription": "Infuse Plus v1.3.2\n\n- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8"
                 }
             ]
