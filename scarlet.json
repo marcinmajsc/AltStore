@@ -1,0 +1,85 @@
+{
+  "META": {
+    "repoName": "Dan's Workshop",
+    "repoIcon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+  },
+  "Tweaked": [
+    {
+      "name": "YouTube Plus",
+      "version": "19.49.5 (5.1)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.49.5.ipa",
+      "category": "Tweaked Apps",
+      "description": "A flexible enhancer for YouTube app",
+      "bundleID": "com.google.ios.youtube",
+      "appstore": "com.google.ios.youtube",
+      "changelog": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
+    },
+    {
+      "name": "YouTube Plus + Tweaks",
+      "version": "19.49.5 (5.1)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
+      "category": "Tweaked Apps",
+      "description": "YouTube Plus with additional tweaks",
+      "bundleID": "com.google.ios.youtube",
+      "appstore": "com.google.ios.youtube",
+      "changelog": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
+    },
+    {
+      "name": "YouTube Plus (iOS14)",
+      "version": "19.20.2 (5.1)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.20.2_og.ipa",
+      "category": "Tweaked Apps",
+      "description": "A flexible enhancer for YouTube app",
+      "bundleID": "com.google.ios.youtube",
+      "appstore": "com.google.ios.youtube",
+      "changelog": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
+    },
+    {
+      "name": "YouTube Music Ultimate",
+      "version": "7.31.1 (2.3)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.31.1.ipa",
+      "category": "Tweaked Apps",
+      "description": "The best enhancer for YouTube Music",
+      "bundleID": "com.google.ios.youtubemusic",
+      "appstore": "com.google.ios.youtubemusic",
+      "changelog": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
+    },
+    {
+      "name": "YTM Ultimate (iOS14)",
+      "version": "7.02.2 (2.3)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2_og.ipa",
+      "category": "Tweaked Apps",
+      "description": "The best enhancer for YouTube Music",
+      "bundleID": "com.google.ios.youtubemusic",
+      "appstore": "com.google.ios.youtubemusic",
+      "changelog": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
+    },
+    {
+      "name": "Infuse Plus",
+      "version": "8.0.5 (1.3.2)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.5.ipa",
+      "category": "Tweaked Apps",
+      "description": "Enhancer for Infuse app",
+      "bundleID": "com.firecore.infuse",
+      "appstore": "com.firecore.infuse",
+      "changelog": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
+    },
+    {
+      "name": "Infuse Plus (iOS14)",
+      "version": "7.8.4 (1.3)",
+      "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3+7.8.4_og.ipa",
+      "category": "Tweaked Apps",
+      "description": "Enhancer for Infuse app",
+      "bundleID": "com.firecore.infuse",
+      "appstore": "com.firecore.infuse",
+      "changelog": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
+    }
+  ]
+}
