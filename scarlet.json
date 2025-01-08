@@ -61,25 +61,25 @@
     },
     {
       "name": "Infuse Plus",
-      "version": "8.0.5 (1.3.2)",
+      "version": "8.0.8 (2.0)",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3.2+8.0.5.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0_8.0.8.ipa",
       "category": "Tweaked Apps",
       "description": "Enhancer for Infuse app\n\nFeatures:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "- Flexible Timer added as submenu in playback settings menu. Tapping remaining time still works on Infuse 7\n- Enabling playback speed submenu option removes stock submenu on Infuse 8\n- Enabling volume boost submenu option removes stock submenu on Infuse 8"
+      "changelog": "- Added option to hide stock playback speed submenu\n- Added option to hide stock volume boost submenu\n- Added option to add loop button in player overlay\n- Added option to add skip to next and previous buttons in player overlay\n- Added option to hide rewind buttons\n- Added option to show status bar in player overlay, including battery style selection\n- Added option to speed up by long press, custom playback rates and adjusting playback rate by gestures\n- Added Import, Export and Restore default preferences\n- Revamped code, improved settings UI\n\nNOTE: This update has moved to its own preferences system. You'll need to set your options again"
     },
     {
       "name": "Infuse Plus (iOS14)",
-      "version": "7.8.4 (1.3)",
+      "version": "7.8.4 (2.0)",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_1.3+7.8.4_og.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0_7.8.4.ipa",
       "category": "Tweaked Apps",
       "description": "Enhancer for Infuse app\n\nFeatures:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "- Optimized for Infuse 8\n- Improved main code\n- Updated credits\n- Added new welcome screen\n- Roothide support"
+      "changelog": "- Added option to hide stock playback speed submenu\n- Added option to hide stock volume boost submenu\n- Added option to add loop button in player overlay\n- Added option to add skip to next and previous buttons in player overlay\n- Added option to hide rewind buttons\n- Added option to show status bar in player overlay, including battery style selection\n- Added option to speed up by long press, custom playback rates and adjusting playback rate by gestures\n- Added Import, Export and Restore default preferences\n- Revamped code, improved settings UI\n\nNOTE: This update has moved to its own preferences system. You'll need to set your options again"
     }
   ]
 }
