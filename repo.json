@@ -227,12 +227,12 @@
             },
             "versions": [
                 {
-                    "version": "7.31.1",
+                    "version": "7.33.2",
                     "minOSVersion": "15.0",
-                    "date": "2024-12-11T16:30:00+03:00",
-                    "size": 82497989,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.31.1.ipa",
-                    "localizedDescription": "YouTube Music Ultimate v2.3\n\n- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button"
+                    "date": "2025-01-09T18:30:00+03:00",
+                    "size": 77871912,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
+                    "localizedDescription": "YouTube Music Ultimate v2.3.1\n\n- Fixed downloads tab not working\n- Fixed local network permissions"
                 }
             ]
         },

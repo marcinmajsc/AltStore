@@ -50,14 +50,14 @@
     },
     {
       "name": "YTM Ultimate (iOS14)",
-      "version": "7.02.2 (2.3)",
+      "version": "7.33.2 (2.3.1)",
       "icon": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2_og.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
       "category": "Tweaked Apps",
       "description": "The best enhancer for YouTube Music\n\nFeatures:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
       "bundleID": "com.google.ios.youtubemusic",
       "appstore": "com.google.ios.youtubemusic",
-      "changelog": "- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button"
+      "changelog": "- Fixed downloads tab not working\n- Fixed local network permissions"
     },
     {
       "name": "Infuse Plus",

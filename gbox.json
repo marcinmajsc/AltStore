@@ -59,11 +59,11 @@
         {
             "appType": "SELF_SIGN",
             "appCateIndex": 0,
-            "appUpdateTime": "2024-12-01T00:00:00+03:00",
+            "appUpdateTime": "2025-01-09T18:30:00+03:00",
             "appName": "YouTube Music Ultimate (iOS14)",
-            "appVersion": "2.3 (7.02.2)",
+            "appVersion": "2.3.1 (7.33.2)",
             "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2_og.ipa",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
             "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
         },
 
