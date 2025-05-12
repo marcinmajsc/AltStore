@@ -327,12 +327,12 @@
             },
             "versions": [
                 {
-                    "version": "8.0.9",
+                    "version": "8.1.5",
                     "minOSVersion": "15.0",
-                    "date": "2025-01-27T21:00:00+03:00",
-                    "size": 67393500,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0.1_8.0.9.ipa",
-                    "localizedDescription": "Infuse Plus v2.0.1\n\n- Improved checking for updates\n- Enhanced custom status bar\n- Removed deprecated API"
+                    "date": "2025-05-12T05:30:00+03:00",
+                    "size": 68678263,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+8.1.5.ipa",
+                    "localizedDescription": "Infuse Plus v2.1\n\n- Fixed file selection\n- Added import from Photos app"
                 }
             ]
         },
@@ -379,10 +379,10 @@
                 {
                     "version": "7.8.4",
                     "minOSVersion": "14.0",
-                    "date": "2025-01-27T21:00:00+03:00",
-                    "size": 67927927,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0.1_7.8.4_alt.ipa",
-                    "localizedDescription": "Infuse Plus v2.0.1\n\n- Improved checking for updates\n- Enhanced custom status bar\n- Removed deprecated API"
+                    "date": "2025-05-12T05:30:00+03:00",
+                    "size": 68046591,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+7.8.4_alt.ipa",
+                    "localizedDescription": "Infuse Plus v2.1\n\n- Fixed file selection\n- Added import from Photos app"
                 }
             ]
         }

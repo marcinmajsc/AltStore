@@ -61,25 +61,25 @@
     },
     {
       "name": "Infuse Plus",
-      "version": "8.0.9 (2.0.1)",
+      "version": "8.1.5 (2.1)",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0.1_8.0.9.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+8.1.5.ipa",
       "category": "Tweaked Apps",
       "description": "Enhancer for Infuse app\n\nFeatures:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "- Improved checking for updates\n- Enhanced custom status bar\n- Removed deprecated API"
+      "changelog": "- Fixed file selection\n- Added import from Photos app"
     },
     {
       "name": "Infuse Plus (iOS14)",
-      "version": "7.8.4 (2.0.1)",
+      "version": "7.8.4 (2.1)",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.0.1_7.8.4.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+7.8.4.ipa",
       "category": "Tweaked Apps",
       "description": "Enhancer for Infuse app\n\nFeatures:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "- Improved checking for updates\n- Enhanced custom status bar\n- Removed deprecated API"
+      "changelog": "- Fixed file selection\n- Added import from Photos app"
     }
   ]
 }
