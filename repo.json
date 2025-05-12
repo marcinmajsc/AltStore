@@ -385,6 +385,72 @@
                     "localizedDescription": "Infuse Plus v2.1\n\n- Fixed file selection\n- Added import from Photos app"
                 }
             ]
+        },
+        {
+            "name": "OrwellVK (iOS15.6+)",
+            "bundleIdentifier": "com.vk.vkclient",
+            "developerName": "dvntm",
+            "subtitle": "A subtle shift from the familiar",
+            "localizedDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu",
+            "iconURL": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
+            "tintColor": "#B5DAFC",
+            "screenshots": [
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png",
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png",
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot3.png",
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png",
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png",
+                "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.healthkit.background-delivery",
+                    "com.apple.developer.payment-pass-provisioning",
+                    "com.apple.developer.siri",
+                    "com.apple.developer.carplay-audio",
+                    "com.apple.developer.healthkit.access",
+                    "keychain-access-groups",
+                    "com.apple.developer.usernotifications.communication",
+                    "com.apple.developer.networking.HotspotConfiguration",
+                    "com.apple.developer.applesignin",
+                    "com.apple.developer.associated-domains",
+                    "com.apple.developer.team-identifier",
+                    "com.apple.developer.healthkit",
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.networking.multicast",
+                    "aps-environment",
+                    "com.apple.developer.networking.wifi-info",
+                    "com.apple.developer.authentication-services.autofill-credential-provider"
+                ],
+                "privacy": {
+                    "NSBluetoothAlwaysUsageDescription": "Это нужно, чтобы приложение могло найти умные устройства в вашем доме",
+                    "NSCalendarsFullAccessUsageDescription": "Allow access to read and edit events",
+                    "NSCalendarsUsageDescription": "Allow access to add events",
+                    "NSCameraUsageDescription": "Allow access to make calls, take photos, create virtual avatars, and record videos, clips and stories, as well as to use the TrueDepth camera to apply effects and masks",
+                    "NSContactsUsageDescription": "Allow access to search friends in your contacts",
+                    "NSFaceIDUsageDescription": "Used for authorization in VK Pay and VK Mini Apps",
+                    "NSHealthShareUsageDescription": "Allow access to use data for VK Run",
+                    "NSHealthUpdateUsageDescription": "Allow access to update number of your steps",
+                    "NSLocalNetworkUsageDescription": "",
+                    "NSLocationWhenInUseUsageDescription": "Location is used when attached to a message or post and to improve recommendations for your news feed",
+                    "NSMicrophoneUsageDescription": "Allow access to record videos and voice messages",
+                    "NSPhotoLibraryAddUsageDescription": "Allow access to save photos and videos to the library",
+                    "NSPhotoLibraryUsageDescription": "Allow access to select photos and videos from the library",
+                    "NSSiriUsageDescription": "Allow to use siri for message announcements",
+                    "NSSpeechRecognitionUsageDescription": "Allow access to recognise voice messages",
+                    "NSUserTrackingUsageDescription": ""
+                }
+            },
+            "versions": [
+                {
+                    "version": "8.121",
+                    "minOSVersion": "15.6",
+                    "date": "2025-05-13T00:00:00+03:00",
+                    "size": 165814543,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.3+8.121.ipa",
+                    "localizedDescription": "OrwellVK v1.1.3\n\n- Added OLED mode (beta)\n- Added OLED keyboard\n- Added the option to save a post as an image\n- Added the option to hide the banner above the chat list\n- Fixed a bug with marking voice messages as played\n- Adapted for VK version 8.128 (but not tested)"
+                }
+            ]
         }
     ]
 }
