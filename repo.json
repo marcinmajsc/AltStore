@@ -423,7 +423,7 @@
                     "com.apple.developer.authentication-services.autofill-credential-provider"
                 ],
                 "privacy": {
-                    "NSBluetoothAlwaysUsageDescription": "Это нужно, чтобы приложение могло найти умные устройства в вашем доме",
+                    "NSBluetoothAlwaysUsageDescription": "This is required so the app can find smart devices in your home",
                     "NSCalendarsFullAccessUsageDescription": "Allow access to read and edit events",
                     "NSCalendarsUsageDescription": "Allow access to add events",
                     "NSCameraUsageDescription": "Allow access to make calls, take photos, create virtual avatars, and record videos, clips and stories, as well as to use the TrueDepth camera to apply effects and masks",
@@ -431,14 +431,14 @@
                     "NSFaceIDUsageDescription": "Used for authorization in VK Pay and VK Mini Apps",
                     "NSHealthShareUsageDescription": "Allow access to use data for VK Run",
                     "NSHealthUpdateUsageDescription": "Allow access to update number of your steps",
-                    "NSLocalNetworkUsageDescription": "",
+                    "NSLocalNetworkUsageDescription": "This is needed so the app can communicate with devices on your local network",
                     "NSLocationWhenInUseUsageDescription": "Location is used when attached to a message or post and to improve recommendations for your news feed",
                     "NSMicrophoneUsageDescription": "Allow access to record videos and voice messages",
                     "NSPhotoLibraryAddUsageDescription": "Allow access to save photos and videos to the library",
                     "NSPhotoLibraryUsageDescription": "Allow access to select photos and videos from the library",
                     "NSSiriUsageDescription": "Allow to use siri for message announcements",
                     "NSSpeechRecognitionUsageDescription": "Allow access to recognise voice messages",
-                    "NSUserTrackingUsageDescription": ""
+                    "NSUserTrackingUsageDescription": "This is used to deliver more relevant content and support the app through personalized ads"
                 }
             },
             "versions": [
