@@ -70,11 +70,11 @@
         {
             "appType": "SELF_SIGN",
             "appCateIndex": 0,
-            "appUpdateTime": "2025-05-12T05:30:00+03:00",
+            "appUpdateTime": "2025-05-14T018:30:00+03:00",
             "appName": "Infuse Plus",
-            "appVersion": "2.1 (8.1.5)",
+            "appVersion": "2.2 (8.1.6)",
             "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+8.1.5.ipa",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
             "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
         },
 

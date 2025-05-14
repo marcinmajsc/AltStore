@@ -327,12 +327,12 @@
             },
             "versions": [
                 {
-                    "version": "8.1.5",
+                    "version": "8.1.6",
                     "minOSVersion": "15.0",
-                    "date": "2025-05-12T05:30:00+03:00",
-                    "size": 68678263,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+8.1.5.ipa",
-                    "localizedDescription": "Infuse Plus v2.1\n\n- Fixed file selection\n- Added import from Photos app"
+                    "date": "2025-05-14T018:30:00+03:00",
+                    "size": 68730447,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
+                    "localizedDescription": "Infuse Plus v2.2\n\n- Ability to add or play links directly, or batch import URLs from a file on the Home page\n- Ability to batch import, export, or remove all links on the Direct URL page"
                 }
             ]
         },

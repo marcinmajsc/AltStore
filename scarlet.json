@@ -61,14 +61,14 @@
     },
     {
       "name": "Infuse Plus",
-      "version": "8.1.5 (2.1)",
+      "version": "8.1.6 (2.2)",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+8.1.5.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
       "category": "Tweaked Apps",
       "description": "Enhancer for Infuse app\n\nFeatures:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "- Fixed file selection\n- Added import from Photos app"
+      "changelog": "- Ability to add or play links directly, or batch import URLs from a file on the Home page\n- Ability to batch import, export, or remove all links on the Direct URL page"
     },
     {
       "name": "Infuse Plus (iOS14)",
