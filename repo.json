@@ -445,10 +445,10 @@
                 {
                     "version": "8.121",
                     "minOSVersion": "15.6",
-                    "date": "2025-05-13T20:00:00+03:00",
-                    "size": 165825212,
-                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.4+8.121.ipa",
-                    "localizedDescription": "OrwellVK v1.1.4\n\n- Safely handles articles to avoid online\n- Safely handles web-sites to avoid online\n- Improved clips downloading"
+                    "date": "2025-06-03T11:00:00+03:00",
+                    "size": 165884002,
+                    "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.5+8.121.ipa",
+                    "localizedDescription": "OrwellVK v1.1.5\n\n- Added the ability to check a user's block status (User Info option)\n- Added the ability to mark voice messages and round videos as viewed via long press (context menu)\n- Added the ability to mark specific messages as read via long press (context menu)\n- Added the ability to download voice messages via long press on the message (context menu)\n- Added the ability to simulate screenshots in chats (Plus icon (+) → Activity → Simulate Screenshot)\n- Added the option to disable screenshot notifications\n- Voice, video, and activity sending menus now adapt to the chat theme\n- Added the ability to hide 'Create story' and 'Discover' buttons in the stories section\n- Fixed a bug where the next story opened while anonymous viewing was enabled\n- Improved OLED theme\n- Improved hiding of elements from the VK Menu, added option to hide 'Log in with QR code'\n- Fixed a bug with opening articles in offline mode\n- Removed aggressive VKVideo ads that interfered with background playback and Picture-in-Picture\n- Optimized for VK v8.131"
                 }
             ]
         }
