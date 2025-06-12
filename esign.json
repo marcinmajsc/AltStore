@@ -145,6 +145,38 @@
             "isLanZouCloud": 0,
             "size": 165909667,
             "type": 1
+        },
+
+        {
+            "name": "Glow for Facebook (iOS15.1+)",
+            "bundleIdentifier": "com.facebook.Facebook",
+            "developerName": "dvntm",
+            "version": "517.0 (1.0)",
+            "versionDate": "2025-06-012T21:00:00+03:00",
+            "versionDescription": "Initial release",
+            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
+            "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
+            "iconURL": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
+            "tintColor": "B5DAFC",
+            "isLanZouCloud": 0,
+            "size": 166201423,
+            "type": 1
+        },
+
+        {
+            "name": "Flow for Messenger (iOS15.1+)",
+            "bundleIdentifier": "com.facebook.Messenger",
+            "developerName": "dvntm",
+            "version": "511.0 (1.0)",
+            "versionDate": "2025-06-012T21:00:00+03:00",
+            "versionDescription": "Initial release",
+            "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+            "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+            "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+            "tintColor": "AF38EB",
+            "isLanZouCloud": 0,
+            "size": 73615608,
+            "type": 1
         }
     ]
 }

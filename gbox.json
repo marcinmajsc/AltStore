@@ -109,6 +109,28 @@
             "appImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
             "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
             "appDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu"
+        },
+
+        {
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2025-06-12T21:00:00+03:00",
+            "appName": "Glow for Facebook (iOS15.1+)",
+            "appVersion": "517.0 (1.0)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
+            "appDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab"
+        },
+
+        {
+            "appType": "SELF_SIGN",
+            "appCateIndex": 0,
+            "appUpdateTime": "2025-06-12T21:00:00+03:00",
+            "appName": "Flow for Messenger (iOS15.1+)",
+            "appVersion": "511.0 (1.0)",
+            "appImage": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+            "appDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation"
         }
     ]
 }
