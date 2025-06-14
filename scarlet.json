@@ -1,5 +1,9 @@
 {
-  "apps": [
+  "META": {
+    "repoName": "Dan's Workshop",
+    "repoIcon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+  },
+  "Tweaked": [
     {
       "name": "YouTube Plus",
       "version": "19.49.5",
