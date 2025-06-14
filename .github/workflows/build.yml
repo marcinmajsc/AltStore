@@ -9,21 +9,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
+  generate:
+    runs-on: macos-latest
     permissions:
       contents: write
-      packages: read
 
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up environment
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq libplist-utils
-          
-      - name: Generate store files
+      - name: Generate files
         working-directory: ./scripts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,5 +31,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add ../*.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update store files [skip ci]"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update store files"
           git push
