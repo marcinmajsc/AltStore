@@ -128,7 +128,7 @@ generate_store_json() {
 
   echo "Creating $output_file..."
 
-  preset=$(jq -r --arg key "$store_key" '.[$key]')
+  preset=$(jq -r --arg key "$store_key" '.[$key]' "$PRESETS_JSON" 2> "${output_file}.error")
   if [[ -z "$preset" || "$preset" == "null" ]]; then
     echo "Error: Preset for $store_key not found in template.json"
     exit 1
