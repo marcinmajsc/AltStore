@@ -1,0 +1,61 @@
+{
+  "altstore.json": {
+    "name": "Dan's Workshop",
+    "subtitle": "All my mods in one place",
+    "description": "Welcome to the official AltStore repository of Dan's Workshop!\n\nHere, you can explore and download all of my free tweaked apps.",
+    "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+    "headerURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/header.png",
+    "website": "https://patreon.com/dayanch96",
+    "tintColor": "#E36678",
+    "featuredApps": [
+      "com.google.ios.youtube",
+      "com.google.ios.youtubemusic",
+      "com.firecore.infuse"
+    ],
+    "apps": "{{apps}}"
+  },
+  "sidestore.json": {
+    "name": "Dan's Workshop",
+    "identifier": "com.dvntm.workshop",
+    "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/sidestore.json",
+    "apps": "{{apps}}"
+  },
+  "feather.json": {
+    "name": "Dan's Workshop",
+    "identifier": "com.dvntm.workshop",
+    "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+    "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/sidestore.json",
+    "featuredApps": [
+      "com.google.ios.youtube",
+      "com.google.ios.youtubemusic",
+      "com.firecore.infuse"
+    ],
+    "apps": "{{apps}}"
+  },
+  "esign.json": {
+    "name": "Dan's Workshop",
+    "identifier": "com.dvntm.workshop",
+    "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/esign.json",
+    "apps": "{{apps}}"
+  },
+  "gbox.json": {
+    "version": "1.0",
+    "sourceName": "Dan's Workshop",
+    "sourceAuthor": "dvntm",
+    "sourceExportEnable": true,
+    "sourceLinkTitle": "Patreon",
+    "sourceLinkUrl": "https://patreon.com/dayanch96",
+    "sourceImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+    "sourceUpdateTime": "2024-12-11T16:30:00+03:00",
+    "sourceDescription": "Welcome to the official GBox repository of Dan's Workshop!\n\nHere, you can explore and download all of my free tweaked apps.",
+    "appCategories": ["Apps"],
+    "appRepositories": "{{apps}}"
+  },
+  "scarlet.json": {
+    "META": {
+      "repoName": "Dan's Workshop",
+      "repoIcon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png"
+    },
+    "Tweaked": "{{apps}}"
+  }
+}
