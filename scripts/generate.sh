@@ -3,6 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 METADATA_JSON="$SCRIPT_DIR/metadata.json"
+PRESETS_JSON="$SCRIPT_DIR/template.json"
 WORKDIR=$(mktemp -d)
 APPS_FULL_JSON="$WORKDIR/apps_full.json"
 
@@ -118,136 +119,125 @@ GBOX_JSON="$SCRIPT_DIR/../gbox.json"
 FEATHER_JSON="$SCRIPT_DIR/../feather.json"
 SCARLET_JSON="$SCRIPT_DIR/../scarlet.json"
 
-handle_jq_error() {
-  local file=$1
-  echo "Failed to create $file"
-  echo "Last 20 lines:"
-  tail -20 "$file"
-  echo "Logs:"
-  cat "${file}.error"
-  exit 1
+echo "Generating store json files..."
+generate_store_json() {
+  local store_key=$1
+  local output_file=$2
+  local apps_key=$3
+  local jq_transform=$4
+
+  echo "Creating $output_file..."
+
+  preset=$(jq -r --arg key "$store_key" '.[$key]')
+  if [[ -z "$preset" || "$preset" == "null" ]]; then
+    echo "Error: Preset for $store_key not found in template.json"
+    exit 1
+  fi
+
+  apps_array=$(jq "$jq_transform" "$APPS_FULL_JSON" 2>> "${output_file}.error")
+
+  if [[ "$apps_key" == "appRepositories" ]]; then
+    echo "$preset" | jq --argjson apps "$apps_array" '. + { appRepositories: $apps }' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+  elif [[ "$apps_key" == "Tweaked" ]]; then
+    echo "$preset" | jq --argjson apps "$apps_array" '. + { Tweaked: $apps }' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+  else
+    echo "$preset" | jq --argjson apps "$apps_array" '.apps = $apps' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+  fi
+
+  echo "$output_file has been created"
 }
 
-echo "Creating repo.json..."
-jq '{
-  apps: map({
-    name: .displayName,
-    bundleIdentifier: .bundleIdentifier,
-    developerName: "dvntm",
-    subtitle: .subtitle,
-    localizedDescription: .description,
-    iconURL: .iconURL,
-    tintColor: .tintColor,
-    screenshots: .screenshots,
-    appPermissions: {
-      entitlements: .entitlements,
-      privacy: .privacy
-    },
-    versions: [{
-      version: .version,
-      minOSVersion: .minOSVersion,
-      date: .date,
-      size: .size,
-      downloadURL: .downloadURL,
-      localizedDescription: .versionDescription
-    }]
-  })
-}' "$APPS_FULL_JSON" > "$ALTSTORE_JSON" 2> "${ALTSTORE_JSON}.error" || handle_jq_error "$ALTSTORE_JSON"
-echo "repo.json has been created"
-
-# sidestore.json
-echo "Creating sidestore.json..."
-jq '{
-  apps: map({
-    name: .displayName,
-    bundleIdentifier: .bundleIdentifier,
-    developerName: "dvntm",
-    subtitle: .subtitle,
+generate_store_json "repo.json" "$ALTSTORE_JSON" "apps" 'map({
+  name: .displayName,
+  bundleIdentifier: .bundleIdentifier,
+  developerName: "dvntm",
+  subtitle: .subtitle,
+  localizedDescription: .description,
+  iconURL: .iconURL,
+  tintColor: .tintColor,
+  screenshots: .screenshots,
+  appPermissions: {
+    entitlements: .entitlements,
+    privacy: .privacy
+  },
+  versions: [{
     version: .version,
-    versionDate: .date,
-    versionDescription: .versionDescription,
-    downloadURL: .downloadURL,
-    localizedDescription: .description,
-    iconURL: .iconURL,
-    tintColor: (.tintColor | sub("^#"; "")),
-    screenshotURLs: .screenshots,
-    size: .size
-  })
-}' "$APPS_FULL_JSON" > "$SIDESTORE_JSON" 2> "${SIDESTORE_JSON}.error" || handle_jq_error "$SIDESTORE_JSON"
-echo "sidestore.json has been created"
-
-# esign.json
-echo "Creating esign.json..."
-jq '{
-  apps: map({
-    name: .displayName,
-    bundleIdentifier: .bundleIdentifier,
-    developerName: "dvntm",
-    version: .version,
-    versionDate: .date,
-    versionDescription: .versionDescription,
-    downloadURL: .downloadURL,
-    localizedDescription: .description,
-    iconURL: .iconURL,
-    tintColor: (.tintColor | sub("^#"; "")),
-    isLanZouCloud: 0,
+    minOSVersion: .minOSVersion,
+    date: .date,
     size: .size,
-    type: 1
-  })
-}' "$APPS_FULL_JSON" > "$ESIGN_JSON" 2> "${ESIGN_JSON}.error" || handle_jq_error "$ESIGN_JSON"
-echo "esign.json has been created"
-
-# gbox.json
-echo "Creating gbox.json..."
-jq '{
-  apps: map({
-    appType: "SELF_SIGN",
-    appCateIndex: 0,
-    appUpdateTime: .date,
-    appName: .displayName,
-    appVersion: .version,
-    appImage: .iconURL,
-    appPackage: .downloadURL,
-    appDescription: .description
-  })
-}' "$APPS_FULL_JSON" > "$GBOX_JSON" 2> "${GBOX_JSON}.error" || handle_jq_error "$GBOX_JSON"
-echo "gbox.json has been created"
-
-# feather.json
-echo "Creating feather.json..."
-jq '{
-  apps: map({
-    name: .displayName,
-    developerName: "dvntm",
-    bundleIdentifier: .bundleIdentifier,
-    subtitle: .subtitle,
-    version: .version,
     downloadURL: .downloadURL,
-    iconURL: .iconURL,
-    localizedDescription: .description,
-    tintColor: (.tintColor | sub("^#"; "")),
-    size: .size,
-    screenshotURLs: .screenshots
-  })
-}' "$APPS_FULL_JSON" > "$FEATHER_JSON" 2> "${FEATHER_JSON}.error" || handle_jq_error "$FEATHER_JSON"
-echo "feather.json has been created"
+    localizedDescription: .versionDescription
+  }]
+})'
 
-# scarlet.json
-echo "Creating scarlet.json..."
-jq '{
-  apps: map({
-    name: .displayName,
-    version: .version,
-    icon: .iconURL,
-    down: .downloadURL,
-    category: "Tweaked Apps",
-    description: .description,
-    bundleID: .bundleIdentifier,
-    appstore: .bundleIdentifier,
-    changelog: .versionDescription
-  })
-}' "$APPS_FULL_JSON" > "$SCARLET_JSON" 2> "${SCARLET_JSON}.error" || handle_jq_error "$SCARLET_JSON"
-echo "scarlet.json has been created"
+generate_store_json "sidestore.json" "$SIDESTORE_JSON" "apps" 'map({
+  name: .displayName,
+  bundleIdentifier: .bundleIdentifier,
+  developerName: "dvntm",
+  subtitle: .subtitle,
+  version: .version,
+  versionDate: .date,
+  versionDescription: .versionDescription,
+  downloadURL: .downloadURL,
+  localizedDescription: .description,
+  iconURL: .iconURL,
+  tintColor: (.tintColor | sub("^#"; "")),
+  screenshotURLs: .screenshots,
+  size: .size
+})'
 
-rm -f ./*.error
+generate_store_json "esign.json" "$ESIGN_JSON" "apps" 'map({
+  name: .displayName,
+  bundleIdentifier: .bundleIdentifier,
+  developerName: "dvntm",
+  version: .version,
+  versionDate: .date,
+  versionDescription: .versionDescription,
+  downloadURL: .downloadURL,
+  localizedDescription: .description,
+  iconURL: .iconURL,
+  tintColor: (.tintColor | sub("^#"; "")),
+  isLanZouCloud: 0,
+  size: .size,
+  type: 1
+})'
+
+generate_store_json "gbox.json" "$GBOX_JSON" "appRepositories" 'map({
+  appType: "SELF_SIGN",
+  appCateIndex: 0,
+  appUpdateTime: .date,
+  appName: .displayName,
+  appVersion: .version,
+  appImage: .iconURL,
+  appPackage: .downloadURL,
+  appDescription: .description
+})'
+
+generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
+  name: .displayName,
+  developerName: "dvntm",
+  bundleIdentifier: .bundleIdentifier,
+  subtitle: .subtitle,
+  version: .version,
+  downloadURL: .downloadURL,
+  iconURL: .iconURL,
+  localizedDescription: .description,
+  tintColor: (.tintColor | sub("^#"; "")),
+  size: .size,
+  screenshotURLs: .screenshots
+})'
+
+generate_store_json "scarlet.json" "$SCARLET_JSON" "Tweaked" 'map({
+  name: .displayName,
+  version: .version,
+  icon: .iconURL,
+  down: .downloadURL,
+  category: "Tweaked Apps",
+  description: .description,
+  bundleID: .bundleIdentifier,
+  appstore: .bundleIdentifier,
+  changelog: .versionDescription
+})'
+
+rm -f "$SCRIPT_DIR"/*.error
 echo "DONE!!!"
