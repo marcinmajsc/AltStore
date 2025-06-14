@@ -32,9 +32,14 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   IPA_FILE="$WORKDIR/app.ipa"
 
   if [[ "$IPA_URL" =~ ^https?:// ]]; then
-    echo "Downloading IPA..."
-    curl -L -o "$IPA_FILE" "$IPA_URL"
+    echo "Downloading IPA from GitHub Releases..."
+    if [[ "$IPA_URL" == *"github.com"* ]]; then
+      curl -H "Authorization: token $GITHUB_TOKEN" -L -o "$IPA_FILE" "$IPA_URL"
+    else
+      curl -L -o "$IPA_FILE" "$IPA_URL"
+    fi
   else
+    echo "Copying local IPA..."
     cp "$IPA_URL" "$IPA_FILE"
   fi
 
