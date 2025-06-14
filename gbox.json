@@ -1,136 +1,64 @@
 {
-    "version": "1.0",
-    "sourceName": "Dan's Workshop",
-    "sourceAuthor": "dvntm",
-    "sourceExportEnable": true,
-    "sourceLinkTitle": "Patreon",
-    "sourceLinkUrl": "https://patreon.com/dayanch96",
-    "sourceImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-    "sourceUpdateTime": "2024-12-11T16:30:00+03:00",
-    "sourceDescription": "Welcome to the official GBox repository of Dan's Workshop!\n\nHere, you can explore and download all of my free tweaked apps.",
-    "appCategories": [
-        "Apps"
-    ],
-    "appRepositories": [
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2024-12-11T16:30:00+03:00",
-            "appName": "YouTube Plus",
-            "appVersion": "5.1 (19.49.5)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.49.5.ipa",
-            "appDescription": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2024-12-11T16:30:00+03:00",
-            "appName": "YouTube Plus + Tweaks",
-            "appVersion": "5.1 (19.49.5)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
-            "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2024-12-01T00:00:00+03:00",
-            "appName": "YouTube Plus (iOS14)",
-            "appVersion": "5.1 (19.20.2)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.20.2_og.ipa",
-            "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2024-12-11T16:30:00+03:00",
-            "appName": "YouTube Music Ultimate",
-            "appVersion": "2.3 (7.31.1)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.31.1.ipa",
-            "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-01-09T18:30:00+03:00",
-            "appName": "YouTube Music Ultimate (iOS14)",
-            "appVersion": "2.3.1 (7.33.2)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
-            "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-05-14T018:30:00+03:00",
-            "appName": "Infuse Plus",
-            "appVersion": "2.2 (8.1.6)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
-            "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-05-12T05:30:00+03:00",
-            "appName": "Infuse Plus (iOS14)",
-            "appVersion": "2.1 (7.8.4)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/v0.0.1/infp_2.1+7.8.4.ipa",
-            "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-06-05T22:30:00+03:00",
-            "appName": "OrwellVK (iOS16.6+)",
-            "appVersion": "8.131 (1.1.6)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.131.ipa",
-            "appDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-06-05T22:30:00+03:00",
-            "appName": "OrwellVK (iOS15.6+)",
-            "appVersion": "8.121 (1.1.6)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
-            "appDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-06-12T21:00:00+03:00",
-            "appName": "Glow for Facebook (iOS15.1+)",
-            "appVersion": "517.0 (1.0)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
-            "appDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab"
-        },
-
-        {
-            "appType": "SELF_SIGN",
-            "appCateIndex": 0,
-            "appUpdateTime": "2025-06-12T21:00:00+03:00",
-            "appName": "Flow for Messenger (iOS15.1+)",
-            "appVersion": "511.0 (1.0)",
-            "appImage": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
-            "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
-            "appDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation"
-        }
-    ]
+  "apps": [
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:35+03:00",
+      "appName": "YouTube Plus",
+      "appVersion": "19.49.5",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
+      "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:39+03:00",
+      "appName": "YouTube Music Ultimate",
+      "appVersion": "7.33.2",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
+      "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:41+03:00",
+      "appName": "Infuse Plus",
+      "appVersion": "8.1.6",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
+      "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:46+03:00",
+      "appName": "OrwellVK",
+      "appVersion": "8.121",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
+      "appDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:51+03:00",
+      "appName": "Glow for Facebook",
+      "appVersion": "517.0.0",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
+      "appDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-06-14T17:39:53+03:00",
+      "appName": "Flow for Messenger",
+      "appVersion": "511.0.0",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+      "appDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation"
+    }
+  ]
 }
