@@ -1,236 +1,122 @@
 {
-    "name": "Dan's Workshop",
-    "identifier": "com.dvntm.workshop",
-    "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-    "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/sidestore.json",
-    "featuredApps": [
-        "com.google.ios.youtube",
-        "com.google.ios.youtubemusic",
-        "com.firecore.infuse"
-    ],
-    "apps": [
-      {
-        "name": "YouTube Plus",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.google.ios.youtube",
-        "subtitle": "A flexible enhancer for YouTube app",
-        "version": "19.49.5 (5.1)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.49.5.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-        "tintColor": "E36678",
-        "size": 110279429,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-        ]
-      },
-      {
-        "name": "YouTube Plus + Tweaks",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.google.ios.youtube",
-        "subtitle": "YouTube Plus with additional tweaks",
-        "version": "19.49.5 (5.1)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-        "tintColor": "A466E3",
-        "size": 110469413,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-        ]
-      },
-      {
-        "name": "YouTube Plus (iOS14)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.google.ios14.youtube",
-        "subtitle": "A flexible enhancer for YouTube app",
-        "version": "19.20.2 (5.1)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.20.2_og.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-        "tintColor": "F769A5",
-        "size": 107912700,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-          "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-        ]
-      },
-      {
-        "name": "YouTube Music Ultimate",
-        "developerName": "dvntm, ginsu",
-        "bundleIdentifier": "com.google.ios.youtubemusic",
-        "subtitle": "The best enhancer for YouTube Music",
-        "version": "7.33.2 (2.3.1)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
-        "tintColor": "FF0033",
-        "size": 77871912,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
-        ]
-      },
-      {
-        "name": "YTM Ultimate (iOS14)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.google.ios14.youtubemusic",
-        "subtitle": "The best enhancer for YouTube Music",
-        "version": "7.02.2 (2.3)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2_og.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
-        "tintColor": "FF0033",
-        "size": 67357569,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
-          "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
-        ]
-      },
-      {
-        "name": "Infuse Plus",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.firecore.infuse",
-        "subtitle": "Enhancer for Infuse app",
-        "version": "8.1.6 (2.2)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
-        "tintColor": "FF8800",
-        "size": 68730447,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
-        ]
-      },
-      {
-        "name": "Infuse Plus (iOS14)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.firecore.infuse",
-        "subtitle": "Enhancer for Infuse app",
-        "version": "7.8.4 (2.1)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+7.8.4.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-        "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
-        "tintColor": "FF8800",
-        "size": 68046591,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
-          "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
-        ]
-      },
-      {
-        "name": "OrwellVK (iOS16.6+)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.vk.vkclient",
-        "subtitle": "A subtle shift from the familiar",
-        "version": "8.131 (1.1.6)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.131.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
-        "localizedDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu",
-        "tintColor": "B5DAFC",
-        "size": 188656680,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot3.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
-        ]
-      },
-      {
-        "name": "OrwellVK (iOS15.6+)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.vk.vkclient",
-        "subtitle": "A subtle shift from the familiar",
-        "version": "8.121 (1.1.6)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
-        "localizedDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu",
-        "tintColor": "B5DAFC",
-        "size": 165909667,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot3.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png",
-          "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
-        ]
-      },
-      {
-        "name": "Glow for Facebook (iOS15.1+)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.facebook.Facebook",
-        "subtitle": "Cleaner. Smarter. Yours.",
-        "version": "517.0 (1.0)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
-        "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
-        "tintColor": "B5DAFC",
-        "size": 166201423,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot3.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot4.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg"
-        ]
-      },
-      {
-        "name": "Flow for Messenger (iOS15.1+)",
-        "developerName": "dvntm",
-        "bundleIdentifier": "com.facebook.Facebook",
-        "subtitle": "A lightweight Messenger enhancer",
-        "version": "511.0 (1.0)",
-        "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
-        "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
-        "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
-        "tintColor": "AF38EB",
-        "size": 73615608,
-        "screenshotURLs": [
-          "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot1.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot2.jpg",
-          "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot3.jpg"
-        ]
-      }
-    ]
-  }
+  "apps": [
+    {
+      "name": "YouTube Plus",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "subtitle": "YouTube Plus with additional tweaks",
+      "version": "19.49.5",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
+      "tintColor": "E36678",
+      "size": 110469413,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ]
+    },
+    {
+      "name": "YouTube Music Ultimate",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "subtitle": "The best enhancer for YouTube Music on iOS",
+      "version": "7.33.2",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
+      "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
+      "tintColor": "FF0033",
+      "size": 77871912,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
+        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
+      ]
+    },
+    {
+      "name": "Infuse Plus",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.firecore.infuse",
+      "subtitle": "Enhancer for Infuse app",
+      "version": "8.1.6",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
+      "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
+      "tintColor": "FF8800",
+      "size": 68730447,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
+        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
+      ]
+    },
+    {
+      "name": "OrwellVK",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.vk.vkclient",
+      "subtitle": "A subtle shift from the familiar",
+      "version": "8.121",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
+      "localizedDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu",
+      "tintColor": "B5DAFC",
+      "size": 165909667,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png",
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png",
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot3.png",
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png",
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png",
+        "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
+      ]
+    },
+    {
+      "name": "Glow for Facebook",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "subtitle": "Cleaner. Smarter. Yours.",
+      "version": "517.0.0",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
+      "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
+      "tintColor": "B5DAFC",
+      "size": 166201423,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg"
+      ]
+    },
+    {
+      "name": "Flow for Messenger",
+      "developerName": "dvntm",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "subtitle": "A lightweight Messenger enhancer",
+      "version": "511.0.0",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+      "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+      "tintColor": "AF38EB",
+      "size": 73615608,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot3.jpg"
+      ]
+    }
+  ]
+}

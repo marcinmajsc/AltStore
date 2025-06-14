@@ -1,76 +1,17 @@
 {
-  "name": "Dan's Workshop",
-  "identifier": "com.dvntm.workshop",
-  "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/sidestore.json",
   "apps": [
     {
       "name": "YouTube Plus",
-      "bundleIdentifier": "com.google.ios.youtubeplus",
-      "developerName": "dvntm",
-      "subtitle": "A flexible enhancer for YouTube app",
-      "version": "19.49.05",
-      "versionDate": "2024-12-01T00:00:00+03:00",
-      "versionDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support",
-      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.1+19.49.5_alt.ipa",
-      "localizedDescription": "This version contains only YouTube Plus and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-      "tintColor": "E36678",
-      "size": 117630285,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-      ],
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "This lets you upload media you've already created."
-        },
-        {
-          "type": "music",
-          "usageDescription": "This lets you add your own audio files to your videos."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "This lets you create videos using the app."
-        },
-        {
-          "type": "network",
-          "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-        },
-        {
-          "type": "location",
-          "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you include audio with your videos and search using your voice."
-        }
-      ]
-    },
-    {
-      "name": "YouTube Plus + Tweaks",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "dvntm",
       "subtitle": "YouTube Plus with additional tweaks",
       "version": "19.49.5",
-      "versionDate": "2024-12-01T00:00:00+03:00",
+      "versionDate": "2025-06-14T17:39:35+03:00",
       "versionDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
       "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-      "tintColor": "A466E3",
-      "size": 110469413,
+      "tintColor": "E36678",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
         "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
@@ -82,105 +23,20 @@
         "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
         "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
       ],
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "This lets you upload media you've already created."
-        },
-        {
-          "type": "music",
-          "usageDescription": "This lets you add your own audio files to your videos."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "This lets you create videos using the app."
-        },
-        {
-          "type": "network",
-          "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-        },
-        {
-          "type": "location",
-          "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you include audio with your videos and search using your voice."
-        }
-      ]
-    },
-    {
-      "name": "YouTube Plus (iOS14)",
-      "bundleIdentifier": "com.google.ios14.youtube",
-      "developerName": "dvntm",
-      "subtitle": "A flexible enhancer for YouTube app",
-      "version": "19.20.2",
-      "versionDate": "2024-12-01",
-      "versionDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support",
-      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.20.2.ipa",
-      "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
-      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-      "tintColor": "F769A5",
-      "size": 107912700,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
-        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
-      ],
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "This lets you upload media you've already created."
-        },
-        {
-          "type": "music",
-          "usageDescription": "This lets you add your own audio files to your videos."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "This lets you create videos using the app."
-        },
-        {
-          "type": "network",
-          "usageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV."
-        },
-        {
-          "type": "location",
-          "usageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you include audio with your videos and search using your voice."
-        }
-      ]
+      "size": 110469413
     },
     {
       "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
-      "developerName": "dvntm, ginsu",
+      "developerName": "dvntm",
       "subtitle": "The best enhancer for YouTube Music on iOS",
       "version": "7.33.2",
-      "versionDate": "2025-01-09T18:30:00+03:00",
-      "versionDescription": "YouTube Music Ultimate v2.3.1\n\n- - Fixed downloads tab not working\n- Fixed local network permissions",
+      "versionDate": "2025-06-14T17:39:39+03:00",
+      "versionDescription": "YouTube Music Ultimate v2.3.1\n\n- Fixed downloads tab not working\n- Fixed local network permissions",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
       "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
       "tintColor": "FF0033",
-      "size": 77871912,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
         "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
@@ -188,71 +44,7 @@
         "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
         "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
       ],
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "To take a profile picture, allow YouTube Music to access your camera."
-        },
-        {
-          "type": "network",
-          "usageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you include audio with your videos."
-        }
-      ]
-    },
-    {
-      "name": "YouTube Music Ultimate (iOS14)",
-      "bundleIdentifier": "com.google.ios14.youtubemusic",
-      "developerName": "dvntm, ginsu",
-      "subtitle": "The best enhancer for YouTube Music on iOS",
-      "version": "7.02.2",
-      "versionDate": "2024-12-01",
-      "versionDescription": "YouTube Music Ultimate v2.3\n\n- Moved to light version of mobile-ffmpeg\n- Moved downloading to the native download button",
-      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_2.3+7.02.2.ipa",
-      "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
-      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
-      "tintColor": "FF0033",
-      "size": 67357569,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
-        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn2.png",
-        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn3.png",
-        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn4.png",
-        "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
-      ],
-      "permissions": [
-        {
-          "type": "photos",
-          "usageDescription": "To choose a profile picture, allow YouTube Music to access your photos."
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices."
-        },
-        {
-          "type": "camera",
-          "usageDescription": "To take a profile picture, allow YouTube Music to access your camera."
-        },
-        {
-          "type": "network",
-          "usageDescription": "Access to your network allows YouTube Music to discover and connect to devices such as your TV."
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "This lets you include audio with your videos."
-        }
-      ]
+      "size": 77871912
     },
     {
       "name": "Infuse Plus",
@@ -260,13 +52,12 @@
       "developerName": "dvntm",
       "subtitle": "Enhancer for Infuse app",
       "version": "8.1.6",
-      "versionDate": "2025-05-14T018:30:00+03:00",
+      "versionDate": "2025-06-14T17:39:41+03:00",
       "versionDescription": "Infuse Plus v2.2\n\n- Ability to add or play links directly, or batch import URLs from a file on the Home page\n- Ability to batch import, export, or remove all links on the Direct URL page",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
       "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
       "tintColor": "FF8800",
-      "size": 68730447,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
@@ -275,78 +66,20 @@
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
       ],
-      "permissions": [
-        {
-          "type": "faceid",
-          "usageDescription": "Used for unlocking your device when restrictions are enabled"
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "Used for streaming media to external devices"
-        },
-        {
-          "type": "network",
-          "usageDescription": "Used to discover network shares and Google Cast devices in your local network"
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "Used for pairing with external devices"
-        }
-      ]
+      "size": 68730447
     },
     {
-      "name": "Infuse Plus (iOS14)",
-      "bundleIdentifier": "com.firecore.infuse7",
-      "developerName": "dvntm",
-      "subtitle": "Enhancer for Infuse app for iOS 14",
-      "version": "7.8.4",
-      "versionDate": "2025-05-12T05:30:00+03:00",
-      "versionDescription": "Infuse Plus v2.1\n\n- Fixed file selection\n- Added import from Photos app",
-      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.1+7.8.4_alt.ipa",
-      "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
-      "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "tintColor": "FF8800",
-      "size": 68046591,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot2.png",
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot3.png",
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot4.png",
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot5.png",
-        "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
-      ],
-      "permissions": [
-        {
-          "type": "faceid",
-          "usageDescription": "Used for unlocking your device when restrictions are enabled"
-        },
-        {
-          "type": "bluetooth",
-          "usageDescription": "Used for streaming media to external devices"
-        },
-        {
-          "type": "network",
-          "usageDescription": "Used to discover network shares and Google Cast devices in your local network"
-        },
-        {
-          "type": "microphone",
-          "usageDescription": "Used for pairing with external devices"
-        }
-      ]
-    },
-    {
-      "name": "OrwellVK (iOS15.6+)",
+      "name": "OrwellVK",
       "bundleIdentifier": "com.vk.vkclient",
       "developerName": "dvntm",
       "subtitle": "A subtle shift from the familiar",
       "version": "8.121",
-      "versionDate": "2025-06-05T22:30:00+03:00",
+      "versionDate": "2025-06-14T17:39:46+03:00",
       "versionDescription": "OrwellVK v1.1.6\n\n- Marking voice message and videos as viewed now also marks the message as read\n- Added support for marking messages and media as viewed in group chats\n- Added missing option to disable screenshot notifications\n- Implemented a full-featured popup with detailed update information\n- Improved API handling, fixed an issue where the option to mark certain voice messages as played was missing from the menu",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
       "localizedDescription": "Features:\n- Download everything you love: videos, episodes, clips, songs, stories, and even voice messages\n- Incognito Mode: Become invisible. Browse posts, read messages, and publish entries without leaving a trace\n- Chats: Manage your chats with ease: send voice and video messages, graffiti directly from the gallery. Pretend you're typing\n- Simplicity: Intuitive and flexible settings that are easy to personalize\n- And More: OrwellVK is not just about settings. It hides even more features for your comfort and privacy\n\nOrwellVK preferences can be found in the VK Settings and Side menu",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
       "tintColor": "B5DAFC",
-      "size": 165909667,
       "screenshotURLs": [
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot1.png",
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot2.png",
@@ -354,7 +87,48 @@
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot4.png",
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot5.png",
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
-      ]
+      ],
+      "size": 165909667
+    },
+    {
+      "name": "Glow for Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "developerName": "dvntm",
+      "subtitle": "Cleaner. Smarter. Yours.",
+      "version": "517.0.0",
+      "versionDate": "2025-06-14T17:39:51+03:00",
+      "versionDescription": "- Initial release",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
+      "localizedDescription": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
+      "tintColor": "B5DAFC",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg"
+      ],
+      "size": 166201423
+    },
+    {
+      "name": "Flow for Messenger",
+      "bundleIdentifier": "com.facebook.Messenger",
+      "developerName": "dvntm",
+      "subtitle": "A lightweight Messenger enhancer",
+      "version": "511.0.0",
+      "versionDate": "2025-06-14T17:39:53+03:00",
+      "versionDescription": "- Initial release",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
+      "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
+      "tintColor": "AF38EB",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot3.jpg"
+      ],
+      "size": 73615608
     }
   ]
 }
