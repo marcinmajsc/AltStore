@@ -1,9 +1,21 @@
 {
-  "apps": [
+  "version": "1.0",
+  "sourceName": "Dan's Workshop",
+  "sourceAuthor": "dvntm",
+  "sourceExportEnable": true,
+  "sourceLinkTitle": "Patreon",
+  "sourceLinkUrl": "https://patreon.com/dayanch96",
+  "sourceImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+  "sourceUpdateTime": "2024-12-11T16:30:00+03:00",
+  "sourceDescription": "Welcome to the official GBox repository of Dan's Workshop!\n\nHere, you can explore and download all of my free tweaked apps.",
+  "appCategories": [
+    "Apps"
+  ],
+  "appRepositories": [
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:35+03:00",
+      "appUpdateTime": "2025-06-14T18:07:36+03:00",
       "appName": "YouTube Plus",
       "appVersion": "19.49.5",
       "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
@@ -13,7 +25,7 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:39+03:00",
+      "appUpdateTime": "2025-06-14T18:07:40+03:00",
       "appName": "YouTube Music Ultimate",
       "appVersion": "7.33.2",
       "appImage": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
@@ -23,7 +35,7 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:41+03:00",
+      "appUpdateTime": "2025-06-14T18:07:43+03:00",
       "appName": "Infuse Plus",
       "appVersion": "8.1.6",
       "appImage": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
@@ -33,7 +45,7 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:46+03:00",
+      "appUpdateTime": "2025-06-14T18:07:48+03:00",
       "appName": "OrwellVK",
       "appVersion": "8.121",
       "appImage": "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/icon.png",
@@ -43,7 +55,7 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:51+03:00",
+      "appUpdateTime": "2025-06-14T18:07:52+03:00",
       "appName": "Glow for Facebook",
       "appVersion": "517.0.0",
       "appImage": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
@@ -53,7 +65,7 @@
     {
       "appType": "SELF_SIGN",
       "appCateIndex": 0,
-      "appUpdateTime": "2025-06-14T17:39:53+03:00",
+      "appUpdateTime": "2025-06-14T18:07:55+03:00",
       "appName": "Flow for Messenger",
       "appVersion": "511.0.0",
       "appImage": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
