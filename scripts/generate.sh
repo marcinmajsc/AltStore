@@ -22,6 +22,7 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   IPA_URL=$(echo "$app_json" | jq -r '.ipaURL // empty')
   DOWNLOAD_URL=$(echo "$app_json" | jq -r '.ipaURL // empty')
   VERSION_DESCRIPTION=$(echo "$app_json" | jq -r '.versionDescription // empty')
+  DATE=$(echo "$app_json" | jq -r '.date // empty')
   TINT_COLOR=$(echo "$app_json" | jq -r '.tintColor // empty')
   SUBTITLE=$(echo "$app_json" | jq -r '.subtitle // empty')
   DESCRIPTION=$(echo "$app_json" | jq -r '.appDescription // empty')
@@ -58,7 +59,6 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   ENTITLEMENTS=$(echo "$ENTITLEMENTS_RAW" | jq 'keys' 2> entitlements_error.log || echo '[]')
   PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" 2>/dev/null | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$"))) | from_entries' 2> privacy_error.log || echo '{}')
   SIZE=$(stat -f%z "$IPA_FILE" 2>/dev/null || echo 0)
-  DATE=$(TZ=Europe/Moscow date +"%Y-%m-%dT%H:%M:%S+03:00")
 
   FULL_APP_JSON=$(jq -n \
     --arg displayName "$DISPLAY_NAME" \
