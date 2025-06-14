@@ -25,6 +25,8 @@ jobs:
           
       - name: Generate store files
         working-directory: ./scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x generate.sh
           ./generate.sh
