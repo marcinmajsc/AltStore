@@ -27,7 +27,7 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   ICON_URL=$(echo "$app_json" | jq -r '.iconURL // empty')
   SCREENSHOTS=$(echo "$app_json" | jq -c '.screenshots // []')
 
-  echo "Extracting $DISPLAY_NAME"
+  echo "Processing $DISPLAY_NAME"
 
   IPA_FILE="$WORKDIR/app.ipa"
 
@@ -47,28 +47,16 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   unzip -q "$IPA_FILE" -d "$TMP_DIR"
 
   APP_PATH=$(find "$TMP_DIR/Payload" -name "*.app" -type d | head -n 1)
-  if [[ -z "$APP_PATH" ]]; then
-    echo ".app not found"
-    rm -rf "$TMP_DIR"
-    continue
-  fi
-
   INFO_PLIST="$APP_PATH/Info.plist"
-  if [[ ! -f "$INFO_PLIST" ]]; then
-    echo "Info.plist not found"
-    rm -rf "$TMP_DIR"
-    continue
-  fi
 
-  EXECUTABLE=$(defaults read "$INFO_PLIST" CFBundleExecutable)
-  BUNDLE_ID=$(defaults read "$INFO_PLIST" CFBundleIdentifier)
-  VERSION=$(defaults read "$INFO_PLIST" CFBundleShortVersionString)
-  MIN_OS_VERSION=$(defaults read "$INFO_PLIST" MinimumOSVersion)
-
+  EXECUTABLE=$(defaults read "$INFO_PLIST" CFBundleExecutable 2>/dev/null || echo "")
+  BUNDLE_ID=$(defaults read "$INFO_PLIST" CFBundleIdentifier 2>/dev/null || echo "")
+  VERSION=$(defaults read "$INFO_PLIST" CFBundleShortVersionString 2>/dev/null || echo "")
+  MIN_OS_VERSION=$(defaults read "$INFO_PLIST" MinimumOSVersion 2>/dev/null || echo "")
   ENTITLEMENTS_RAW=$(codesign -d --entitlements :- "$APP_PATH/$EXECUTABLE" 2>/dev/null | plutil -convert json -o - - 2>/dev/null || echo '{}')
-  ENTITLEMENTS=$(echo "$ENTITLEMENTS_RAW" | jq 'keys')
-  PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$"))) | from_entries')
-  SIZE=$(stat -f%z "$IPA_FILE")
+  ENTITLEMENTS=$(echo "$ENTITLEMENTS_RAW" | jq 'keys' 2> entitlements_error.log || echo '[]')
+  PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" 2>/dev/null | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$"))) | from_entries' 2> privacy_error.log || echo '{}')
+  SIZE=$(stat -f%z "$IPA_FILE" 2>/dev/null || echo 0)
   DATE=$(TZ=Europe/Moscow date +"%Y-%m-%dT%H:%M:%S+03:00")
 
   FULL_APP_JSON=$(jq -n \
@@ -103,14 +91,25 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
       subtitle: $subtitle,
       description: $description,
       screenshots: $screenshots
-    }')
+    }' 2> full_app_json_error.log || {
+      echo "Failed creating full app info for $DISPLAY_NAME"
+      rm -rf "$TMP_DIR"
+      continue
+    })
 
-  jq --argjson app "$FULL_APP_JSON" '. + [$app]' "$APPS_FULL_JSON" > "$APPS_FULL_JSON.tmp" && mv "$APPS_FULL_JSON.tmp" "$APPS_FULL_JSON"
+  jq --argjson app "$FULL_APP_JSON" '. + [$app]' "$APPS_FULL_JSON" > "$APPS_FULL_JSON.tmp" 2> apps_full_json_error.log || {
+    echo "Failed to add $DISPLAY_NAME in apps_full.json"
+    rm -rf "$TMP_DIR"
+    continue
+  }
+  mv "$APPS_FULL_JSON.tmp" "$APPS_FULL_JSON"
 
+  echo "$DISPLAY_NAME has been successfully added"
+  rm -rf "$TMP_DIR"
 done
 
 echo
-echo "apps_full.json has been generated"
+echo "apps_full.json has been successfully generated"
 
 ALTSTORE_JSON="$SCRIPT_DIR/../repo.json"
 SIDESTORE_JSON="$SCRIPT_DIR/../sidestore.json"
