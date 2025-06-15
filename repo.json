@@ -62,7 +62,7 @@
         {
           "version": "19.49.5",
           "minOSVersion": "15.0",
-          "date": "2025-06-14T18:07:36+03:00",
+          "date": "2024-12-11T16:30:00+03:00",
           "size": 110469413,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytpt_5.1+19.49.5.ipa",
           "localizedDescription": "YouTube Plus v5.1\n\n- Added option to display mute button in player overlay\n- Added option to display lock screen button in player overlay\n- Added option to prefer stable volume when downloading media\n- Added option to remove identifiers from sharing links\n- Added option to download Shorts from the previews in feed\n- Added option for embedding thumbnails into downloaded videos\n- Added new tab support - Posts\n- Added option to enable translucent tab bar\n- Optimized tab bar for the new theme\n- Added OLED dark keyboard\n- Added progress bar theming: Solid color, Gradient color and Scrubber color selection\n- Added option to remove Subscribe/Unsubscribe button under player\n- Added options to remove Share, Thanks, Remix, Download, Clip, Save and Report buttons\n- Added image viewer:\n  * Show full-size post in image viewer:\n  * Show full-size profile picture in image viewer\n  * Show video thumbnail in image viewer\n- Advanced Shorts elements settings is back:\n  * Added options to remove Subscriptions, Live, Trends and Shopping buttons in paused states\n  * Added options to remove Like, Dislike, Comment, Share and Remix buttons from actions bar\n  * Added options to remove Suggestions, Username, Description, Source, Audio indicator and Follow button\n- Improved downloading functions\n- Improved YouTube Plus player menu\n- Improved caption selection, fixed issues with Captions button in overlay\n- Improved settings section for the new theme \n- Fixed random crashes in feed when SponsorBlock segments for feed enabled\n- Fixed random crashes in shorts when legacy pip mode in YouPiP enabled\n- Fixed crashes when tapping on Share\n- Fixed option that removes 'Play next in queue' option in the menu\n- Fixed bug related to stopping playback if auto-stopping was selected\n- Fixed a bug that caused the app to crash when attempting to download a video\n- Fixed shorts interface issue\n- Fixed missing SponsorBlock segments in player bar and in feed\n- Fixed Save or Share video sheet layout on iPads\n- iPad mini-player style now brings back old mini-player\n- iPhone mini-player style now brings back legacy iPhone mini-player\n- More posts to hide\n- Removed more ads\n- Removed Old UI option since it broken completely\n- Remove inline comment and Remove videos under player options moved to the player settings\n- SponsorBlock enabled by default\n- Special thanks section\n- Now you can choose to not show Incompatible tweaks pop-up for the current version of YouTube Plus\n- Added Korean localization support\n- Added Polish localization support"
@@ -101,7 +101,7 @@
         {
           "version": "7.33.2",
           "minOSVersion": "15.0",
-          "date": "2025-06-14T18:07:40+03:00",
+          "date": "2025-01-09T18:30:00+03:00",
           "size": 77871912,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.33.2.ipa",
           "localizedDescription": "YouTube Music Ultimate v2.3.1\n\n- Fixed downloads tab not working\n- Fixed local network permissions"
@@ -141,7 +141,7 @@
         {
           "version": "8.1.6",
           "minOSVersion": "15.0",
-          "date": "2025-06-14T18:07:43+03:00",
+          "date": "2025-05-14T018:30:00+03:00",
           "size": 68730447,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
           "localizedDescription": "Infuse Plus v2.2\n\n- Ability to add or play links directly, or batch import URLs from a file on the Home page\n- Ability to batch import, export, or remove all links on the Direct URL page"
@@ -189,7 +189,7 @@
         {
           "version": "8.121",
           "minOSVersion": "15.6",
-          "date": "2025-06-14T18:07:48+03:00",
+          "date": "2025-06-05T22:30:00+03:00",
           "size": 165909667,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ovk_1.1.6+8.121.ipa",
           "localizedDescription": "OrwellVK v1.1.6\n\n- Marking voice message and videos as viewed now also marks the message as read\n- Added support for marking messages and media as viewed in group chats\n- Added missing option to disable screenshot notifications\n- Implemented a full-featured popup with detailed update information\n- Improved API handling, fixed an issue where the option to mark certain voice messages as played was missing from the menu"
@@ -236,7 +236,7 @@
         {
           "version": "517.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-14T18:07:52+03:00",
+          "date": "2025-06-14T118:15:00+03:00",
           "size": 166201423,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
           "localizedDescription": "- Initial release"
@@ -282,7 +282,7 @@
         {
           "version": "511.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-14T18:07:55+03:00",
+          "date": "2025-06-14T118:15:00+03:00",
           "size": 73615608,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
           "localizedDescription": "- Initial release"
