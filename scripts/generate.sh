@@ -57,7 +57,7 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   MIN_OS_VERSION=$(defaults read "$INFO_PLIST" MinimumOSVersion 2>/dev/null || echo "")
   ENTITLEMENTS_RAW=$(codesign -d --entitlements :- "$APP_PATH/$EXECUTABLE" 2>/dev/null | plutil -convert json -o - - 2>/dev/null || echo '{}')
   ENTITLEMENTS=$(echo "$ENTITLEMENTS_RAW" | jq 'keys' 2> entitlements_error.log || echo '[]')
-  PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" 2>/dev/null | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$"))) | from_entries' 2> privacy_error.log || echo '{}')
+  PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" 2>/dev/null | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$")) | .value = (if .value == "" then "No usage description provided by app'\''s developer" else .value end)) | from_entries' 2> privacy_error.log || echo '{}')
   SIZE=$(stat -f%z "$IPA_FILE" 2>/dev/null || echo 0)
 
   FULL_APP_JSON=$(jq -n \
