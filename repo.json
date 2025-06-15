@@ -173,7 +173,7 @@
           "NSHealthUpdateUsageDescription": "Allow access to update number of your steps",
           "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads to you",
           "NSPhotoLibraryAddUsageDescription": "Allow access to save photos and videos to the library",
-          "NSLocalNetworkUsageDescription": "",
+          "NSLocalNetworkUsageDescription": "No usage description provided by app's developer",
           "NSHealthShareUsageDescription": "Allow access to use data for VK Run",
           "NSSpeechRecognitionUsageDescription": "Allow access to recognise voice messages",
           "NSCalendarsUsageDescription": "Allow access to add events",
