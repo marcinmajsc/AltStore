@@ -6,6 +6,7 @@ METADATA_JSON="$SCRIPT_DIR/metadata.json"
 PRESETS_JSON="$SCRIPT_DIR/template.json"
 WORKDIR=$(mktemp -d)
 APPS_FULL_JSON="$WORKDIR/apps_full.json"
+SOURCE_UPDATE_TIME=$(TZ=Europe/Moscow date +"%Y-%m-%dT%H:%M:%S+03:00")
 
 cleanup() {
   rm -rf "$WORKDIR"
@@ -129,20 +130,23 @@ generate_store_json() {
 
   echo "Creating $output_file..."
 
-  preset=$(jq -r --arg key "$store_key" '.[$key]' "$PRESETS_JSON" 2> "${output_file}.error")
+  preset=$(jq -r --arg key "$store_key" '.[$key]' "$PRESETS_JSON")
   if [[ -z "$preset" || "$preset" == "null" ]]; then
     echo "Error: Preset for $store_key not found in template.json"
     exit 1
   fi
 
-  apps_array=$(jq "$jq_transform" "$APPS_FULL_JSON" 2>> "${output_file}.error")
+  apps_array=$(jq "$jq_transform" "$APPS_FULL_JSON")
 
-  if [[ "$apps_key" == "appRepositories" ]]; then
-    echo "$preset" | jq --argjson apps "$apps_array" '. + { appRepositories: $apps }' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+  if [[ "$store_key" == "gbox.json" ]]; then
+    echo "$preset" | jq --argjson apps "$apps_array" --arg sourceUpdateTime "$SOURCE_UPDATE_TIME" \
+      '. + { appRepositories: $apps, sourceUpdateTime: $sourceUpdateTime }' > "$output_file"
+  elif [[ "$apps_key" == "appRepositories" ]]; then
+    echo "$preset" | jq --argjson apps "$apps_array" '. + { appRepositories: $apps }' > "$output_file"
   elif [[ "$apps_key" == "Tweaked" ]]; then
-    echo "$preset" | jq --argjson apps "$apps_array" '. + { Tweaked: $apps }' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+    echo "$preset" | jq --argjson apps "$apps_array" '. + { Tweaked: $apps }' > "$output_file"
   else
-    echo "$preset" | jq --argjson apps "$apps_array" '.apps = $apps' > "$output_file" 2>> "${output_file}.error" || handle_jq_error "$output_file"
+    echo "$preset" | jq --argjson apps "$apps_array" '.apps = $apps' > "$output_file"
   fi
 
   echo "$output_file has been created"
