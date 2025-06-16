@@ -55,8 +55,9 @@ jq -c 'to_entries[]' "$METADATA_JSON" | while read -r entry; do
   BUNDLE_ID=$(defaults read "$INFO_PLIST" CFBundleIdentifier 2>/dev/null || echo "")
   VERSION=$(defaults read "$INFO_PLIST" CFBundleShortVersionString 2>/dev/null || echo "")
   MIN_OS_VERSION=$(defaults read "$INFO_PLIST" MinimumOSVersion 2>/dev/null || echo "")
-  ENTITLEMENTS_RAW=$(codesign -d --entitlements :- "$APP_PATH/$EXECUTABLE" 2>/dev/null | plutil -convert json -o - - 2>/dev/null || echo '{}')
-  ENTITLEMENTS=$(echo "$ENTITLEMENTS_RAW" | jq 'keys' 2> entitlements_error.log || echo '[]')
+  ENTITLEMENTS_RAW=$(ldid -e "$APP_PATH/$EXECUTABLE" 2>/dev/null || echo '{}')
+  ENTITLEMENTS_JSON=$(echo "$ENTITLEMENTS_RAW" | plutil -convert json -o - - 2>/dev/null || echo '{}')
+  ENTITLEMENTS=$(echo "$ENTITLEMENTS_JSON" | jq 'keys' 2>/dev/null || echo '[]')
   PRIVACY=$(plutil -convert json -o - "$INFO_PLIST" 2>/dev/null | jq 'to_entries | map(select(.key | test("^NS.*UsageDescription$")) | .value = (if .value == "" then "No usage description provided by app'\''s developer" else .value end)) | from_entries' 2> privacy_error.log || echo '{}')
   SIZE=$(stat -f%z "$IPA_FILE" 2>/dev/null || echo 0)
 
