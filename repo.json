@@ -300,7 +300,7 @@
         {
           "version": "517.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-14T118:15:00+03:00",
+          "date": "2025-06-14T18:15:00+03:00",
           "size": 166201423,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.0+517.0.ipa",
           "localizedDescription": "- Initial release"
@@ -361,7 +361,7 @@
         {
           "version": "511.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-14T118:15:00+03:00",
+          "date": "2025-06-14T18:15:00+03:00",
           "size": 73615608,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
           "localizedDescription": "- Initial release"
