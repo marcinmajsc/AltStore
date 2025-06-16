@@ -85,7 +85,19 @@
         "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn5.png"
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.mediasetup",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "YouTube Music uses Bluetooth to locate and connect to Chromecast and other devices.",
           "NSCameraUsageDescription": "To take a profile picture, allow YouTube Music to access your camera.",
@@ -125,7 +137,20 @@
         "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot6.png"
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.user-fonts",
+          "com.apple.security.application-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Used to discover nearby Cast devices",
           "NSCameraUsageDescription": "Used for scanning QR codes",
@@ -165,7 +190,26 @@
         "https://raw.githubusercontent.com/dayanch96/OrwellVK/refs/heads/main/Sileo/screenshot6.png"
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.authentication-services.autofill-credential-provider",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.healthkit.background-delivery",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.payment-pass-provisioning",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Это нужно, чтобы приложение могло найти умные устройства в вашем доме",
           "NSSiriUsageDescription": "Allow to use siri for message announcements",
@@ -212,7 +256,27 @@
         "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/screenshot5.jpg"
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.accounts.facebook.defaultaccess",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.networking.HotspotConfiguration",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": "Facebook uses Bluetooth so you can do things like find and connect to devices and cast videos to TV.",
           "NSSiriUsageDescription": "This will let Siri help you look for photos on Facebook",
@@ -257,7 +321,22 @@
         "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/screenshot3.jpg"
       ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.icloud-container-environment",
+          "com.apple.developer.icloud-container-identifiers",
+          "com.apple.developer.icloud-services",
+          "com.apple.developer.siri",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-container-identifiers",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
         "privacy": {
           "NSBluetoothAlwaysUsageDescription": " This makes some features work with bluetooth accessories.",
           "NSLocationAlwaysUsageDescription": "This makes some features work, enables location sharing with friends, and more.",
