@@ -55,7 +55,7 @@
       "developerName": "dvntm",
       "subtitle": "Enhancer for Infuse app",
       "version": "8.1.6",
-      "versionDate": "2025-05-14T018:30:00+03:00",
+      "versionDate": "2025-05-14T18:30:00+03:00",
       "versionDescription": "Infuse Plus v2.2\n\n- Ability to add or play links directly, or batch import URLs from a file on the Home page\n- Ability to batch import, export, or remove all links on the Direct URL page",
       "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.2+8.1.6.ipa",
       "localizedDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
