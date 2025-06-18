@@ -300,10 +300,10 @@
         {
           "version": "517.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-18T02:30:00+03:00",
-          "size": 170683002,
-          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.1+517.0.ipa",
-          "localizedDescription": "Glow v1.1\n- Added option to select video download quality (up to 1080p)\n- Facebook settings button now also opens Glow settings\n- Added support for Polish language\n- Added support for Spanish language\n- Added support for Vietnamese language\n- Added support for Simplified Chinese\n- Added support for Traditional Chinese"
+          "date": "2025-06-18T22:00:00+03:00",
+          "size": 165510630,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.2+517.0.ipa",
+          "localizedDescription": "Glow v1.2\n- Improved video conversion\n- Added encoding speed selection in settings\n- Added HDR support for downloaded videos\n- Fixed description for pre-encoded videos"
         }
       ]
     },

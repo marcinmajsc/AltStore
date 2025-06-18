@@ -52,12 +52,12 @@
       "name": "Glow for Facebook",
       "version": "517.0.0",
       "icon": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.1+517.0.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.2+517.0.ipa",
       "category": "Tweaked Apps",
       "description": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
       "bundleID": "com.facebook.Facebook",
       "appstore": "com.facebook.Facebook",
-      "changelog": "Glow v1.1\n- Added option to select video download quality (up to 1080p)\n- Facebook settings button now also opens Glow settings\n- Added support for Polish language\n- Added support for Spanish language\n- Added support for Vietnamese language\n- Added support for Simplified Chinese\n- Added support for Traditional Chinese"
+      "changelog": "Glow v1.2\n- Improved video conversion\n- Added encoding speed selection in settings\n- Added HDR support for downloaded videos\n- Fixed description for pre-encoded videos"
     },
     {
       "name": "Flow for Messenger",
