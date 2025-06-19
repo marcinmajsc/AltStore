@@ -50,14 +50,14 @@
     },
     {
       "name": "Glow for Facebook",
-      "version": "517.0.0",
+      "version": "518.0.0",
       "icon": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.2+517.0.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3+518.0.ipa",
       "category": "Tweaked Apps",
       "description": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
       "bundleID": "com.facebook.Facebook",
       "appstore": "com.facebook.Facebook",
-      "changelog": "Glow v1.2\n- Improved video conversion\n- Added encoding speed selection in settings\n- Added HDR support for downloaded videos\n- Fixed description for pre-encoded videos"
+      "changelog": "Glow v1.3\n- Added an option to hide recommendations from the feed (Make sure to read the option description before enabling it)\n- Added the ability to download videos in comments via long press\n- Added an option to notify about updates\n- Fixed icon glitches on certain devices\n- Added GitHub Actions to the repository for building Glow for Facebook yourself (Instructions are provided in the repository's README)"
     },
     {
       "name": "Flow for Messenger",
