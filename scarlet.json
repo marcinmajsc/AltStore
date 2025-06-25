@@ -50,14 +50,14 @@
     },
     {
       "name": "Glow for Facebook",
-      "version": "518.0.0",
+      "version": "519.0.0",
       "icon": "https://raw.githubusercontent.com/dayanch96/Glow/refs/heads/main/Sileo/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3+518.0.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
       "category": "Tweaked Apps",
       "description": "Features:\n- Download whatever you like — videos, images, Reels, and even stories\n- Stay unseen. View stories and mark them as seen only when you want to\n- Worried about accidental likes? Now you can relax\n- Flexible, intuitive settings — all tailored to you\n\nGlow settings are available via long press on any tab",
       "bundleID": "com.facebook.Facebook",
       "appstore": "com.facebook.Facebook",
-      "changelog": "Glow v1.3\n- Added an option to hide recommendations from the feed (Make sure to read the option description before enabling it)\n- Added the ability to download videos in comments via long press\n- Added an option to notify about updates\n- Fixed icon glitches on certain devices\n- Added GitHub Actions to the repository for building Glow for Facebook yourself (Instructions are provided in the repository's README)"
+      "changelog": "Glow v1.3.1\n- Faster video re-encoding by improved audio processing\n- Added support for Turkish language"
     },
     {
       "name": "Flow for Messenger",
@@ -65,7 +65,7 @@
       "icon": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
       "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/flow_1.0+511.0.ipa",
       "category": "Tweaked Apps",
-      "description": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+      "description": "Features:\n- Remove ads\n- Remove stories banner\n- Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n- Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
       "bundleID": "com.facebook.Messenger",
       "appstore": "com.facebook.Messenger",
       "changelog": "- Initial release"

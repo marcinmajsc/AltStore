@@ -299,12 +299,12 @@
       },
       "versions": [
         {
-          "version": "518.0.0",
+          "version": "519.0.0",
           "minOSVersion": "15.1",
-          "date": "2025-06-19T18:30:00+03:00",
-          "size": 165686566,
-          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3+518.0.ipa",
-          "localizedDescription": "Glow v1.3\n- Added an option to hide recommendations from the feed (Make sure to read the option description before enabling it)\n- Added the ability to download videos in comments via long press\n- Added an option to notify about updates\n- Fixed icon glitches on certain devices\n- Added GitHub Actions to the repository for building Glow for Facebook yourself (Instructions are provided in the repository's README)"
+          "date": "2025-06-25T18:00:00+03:00",
+          "size": 170243561,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/glow_1.3.1+519.0.ipa",
+          "localizedDescription": "Glow v1.3.1\n- Faster video re-encoding by improved audio processing\n- Added support for Turkish language"
         }
       ]
     },
@@ -313,7 +313,7 @@
       "bundleIdentifier": "com.facebook.Messenger",
       "developerName": "dvntm",
       "subtitle": "A lightweight Messenger enhancer",
-      "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n -Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n -Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
+      "localizedDescription": "Features:\n- Remove ads\n- Remove stories banner\n- Remove 'People you may know'\n- Disable typing indicator\n- Read messages anonymously\n- Watch stories anonymously\n- Loop stories\n- Download stories\n- Remove 'Stories' tab\n- Remove 'Friends' tab\n- Remove AI circle\n- Require call confirmation",
       "iconURL": "https://raw.githubusercontent.com/dayanch96/Flow/refs/heads/main/Sileo/icon.png",
       "tintColor": "#AF38EB",
       "screenshots": [
