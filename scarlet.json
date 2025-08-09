@@ -28,14 +28,14 @@
     },
     {
       "name": "Infuse Plus",
-      "version": "8.2.1",
+      "version": "8.2.0",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3+8.2.1.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3.1+8.2.0.ipa",
       "category": "Tweaked Apps",
       "description": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
       "bundleID": "com.firecore.infuse",
       "appstore": "com.firecore.infuse",
-      "changelog": "Infuse Plus v2.3\n\n- Added batch video import\n- Infuse v8.2.1 support"
+      "changelog": "Infuse Plus v2.3.1\n\n- Player improvements"
     },
     {
       "name": "OrwellVK",

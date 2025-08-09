@@ -164,12 +164,12 @@
       },
       "versions": [
         {
-          "version": "8.2.1",
-          "minOSVersion": "16.0",
-          "date": "2025-08-07T17:00:00+03:00",
-          "size": 68779418,
-          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3+8.2.1.ipa",
-          "localizedDescription": "Infuse Plus v2.3\n\n- Added batch video import\n- Infuse v8.2.1 support"
+          "version": "8.2.0",
+          "minOSVersion": "15.0",
+          "date": "2025-08-09T22:00:00+03:00",
+          "size": 68653640,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3.1+8.2.0.ipa",
+          "localizedDescription": "Infuse Plus v2.3.1\n\n- Player improvements"
         }
       ]
     },
