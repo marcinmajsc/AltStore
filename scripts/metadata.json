@@ -44,9 +44,9 @@
     "subtitle": "Enhancer for Infuse app",
     "appDescription": "Features:\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
-    "ipaURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3+8.2.1.ipa",
-    "versionDescription": "Infuse Plus v2.3\n\n- Added batch video import\n- Infuse v8.2.1 support",
-    "date": "2025-08-07T17:00:00+03:00",
+    "ipaURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.3.1+8.2.0.ipa",
+    "versionDescription": "Infuse Plus v2.3.1\n\n- Player improvements",
+    "date": "2025-08-09T22:00:00+03:00",
     "tintColor": "#FF8800",
     "screenshots": [
       "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
