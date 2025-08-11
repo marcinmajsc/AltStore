@@ -6,14 +6,14 @@
   "Tweaked": [
     {
       "name": "YouTube Plus",
-      "version": "20.10.4",
+      "version": "20.32.4",
       "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2b2+20.10.4.ipa",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2b3+20.32.4.ipa",
       "category": "Tweaked Apps",
       "description": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
       "bundleID": "com.google.ios.youtube",
       "appstore": "com.google.ios.youtube",
-      "changelog": "YouTube Plus v5.2b2\n\nThis update is primarily focused on improving stability and fixing major and critical bugs. It includes the following changes:\n- Introduced SponsorBlock Engine to handle sponsorblock api, sponsor segments and video interaction\n- Added the ability to whitelist channels (SponsorBlock) and manage the list\n- Added support for creating, saving, and editing private and public SponsorBlock UserIDs (more features coming soon)\n- Reworked the player gesture toast, with a new compact mode\n- Rewritten progress toast with support for swipe-to-dismiss gestures, also now used by SponsorBlock\n- Added ability to open clipboard links (Long-press on the first tab → Open Link)\n- Added an option to automatically check and open clipboard for any YouTube-related links (YTPlus Settings → Interface → Other)\n- Fixed an issue where post images couldn’t be opened by tapping\n- Fixed crashes while scrolling through the feed\n- Fixed rare crashes during video playback\n- Fixed crashes with Speed Controls in the player overlay\n- Speed Controls interaction now resets the overlay auto-hide timer\n- Fixed playback rate changing up to 5x, both, overlay controls and gestures\n- Fixed issues related to hiding menu buttons\n- Fixed overlay buttons not hiding correctly in Shorts\n- Fixed tab bar issues\n- Fixed minor bugs in the feed\n- Improved gesture interaction within the player\n- Fixed general overlay interaction issues\n- Partially rewritten YTPlus settings for better stability and UX. Replaced oversized YT Sheets with compact menus, tapping a cell now shows a detailed alert\n- Various minor internal code improvements and cleanups"
+      "changelog": "YouTube Plus v5.2b3\n\nAttempts to fix playback issues on sideload"
     },
     {
       "name": "YouTube Music Ultimate",
