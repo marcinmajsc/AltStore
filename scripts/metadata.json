@@ -46,7 +46,7 @@
     "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
     "ipaURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.4+8.2.2.ipa",
     "versionDescription": "Infuse Plus v2.4\n\n- Added player toast for playback speed, with compact mode support\n- Improved importing from the Photos app, now skips compression\n- Added importing videos from Photos app on the Home tab\n- Fixed support for Pro features on Infuse v8.2.1+",
-    "date": "2025-08-14T02:00:00+03:00",
+    "date": "2025-08-13T02:00:00+03:00",
     "tintColor": "#FF8800",
     "screenshots": [
       "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/screenshot1.png",
