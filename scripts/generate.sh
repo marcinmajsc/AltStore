@@ -220,16 +220,29 @@ generate_store_json "gbox.json" "$GBOX_JSON" "appRepositories" 'map({
 
 generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
   name: .displayName,
-  developerName: "dvntm",
   bundleIdentifier: .bundleIdentifier,
+  developerName: "dvntm",
   subtitle: .subtitle,
-  version: .version,
-  downloadURL: .downloadURL,
-  iconURL: .iconURL,
   localizedDescription: .description,
-  tintColor: (.tintColor | sub("^#"; "")),
-  size: .size,
-  screenshotURLs: .screenshots
+  iconURL: .iconURL,
+  tintColor: .tintColor,
+  screenshotURLs: .screenshots,
+  appPermissions: {
+    entitlements: .entitlements,
+    privacy: .privacy
+  },
+  versions: [
+    {
+    version: .version,
+    minOSVersion: .minOSVersion,
+    date: .date,
+    size: .size,
+    downloadURL: .downloadURL,
+    localizedDescription: .versionDescription
+    }
+  ],
+  version: .version,
+  size: .size
 })'
 
 generate_store_json "scarlet.json" "$SCARLET_JSON" "Tweaked" 'map({
