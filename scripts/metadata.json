@@ -27,8 +27,8 @@
     "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
     "ipaURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
-    "versionDescription": "YouTube Music Ultimate v2.4\n\n- First release based on community contributions\n- Adds Italian localization by @basketshoe\n- Adds Thai translations by @Tonwalter888\n- Fixes app crash when sharing audio on iPad\n- Fixes app crash when searching for audio\n- Authorization improvements on latest versions by @Tonwalter888\n- AV switch improvements by @Tonwalter888\n- Background playback improvements by @Tonwalter888\n- Cast improvements by @Tonwalter888\n- Ad removal improvements by @Tonwalter888\n- Premium hooks improvements by @Tonwalter888\n- Autoplay improvements by @Tonwalter888\n- Skip content warning fix for the latest versions by @Tonwalter888\n- Code syntax fixes by @shreybaviskar",
-    "date": "2026-03-18T16:30:00+03:00",
+    "versionDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon",
+    "date": "2026-03-19T10:30:00+03:00",
     "tintColor": "#FF0033",
     "screenshots": [
       "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
@@ -45,8 +45,8 @@
     "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
     "ipaURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.02.2.ipa",
-    "versionDescription": "YouTube Music Ultimate v2.4\n\n- First release based on community contributions\n- Adds Italian localization by @basketshoe\n- Adds Thai translations by @Tonwalter888\n- Fixes app crash when sharing audio on iPad\n- Fixes app crash when searching for audio\n- Authorization improvements on latest versions by @Tonwalter888\n- AV switch improvements by @Tonwalter888\n- Background playback improvements by @Tonwalter888\n- Cast improvements by @Tonwalter888\n- Ad removal improvements by @Tonwalter888\n- Premium hooks improvements by @Tonwalter888\n- Autoplay improvements by @Tonwalter888\n- Skip content warning fix for the latest versions by @Tonwalter888\n- Code syntax fixes by @shreybaviskar",
-    "date": "2026-03-18T16:30:00+03:00",
+    "versionDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon",
+    "date": "2026-03-19T10:30:00+03:00",
     "tintColor": "#FF0033",
     "screenshots": [
       "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/scrn1.png",
