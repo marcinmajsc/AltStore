@@ -109,14 +109,14 @@
         {
           "version": "9.11.2",
           "minOSVersion": "16.0",
-          "date": "2026-03-18T16:30:00+03:00",
-          "size": 93336122,
+          "date": "2026-03-19T10:30:00+03:00",
+          "size": 93628401,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
-          "localizedDescription": "YouTube Music Ultimate v2.4\n\n- First release based on community contributions\n- Adds Italian localization by @basketshoe\n- Adds Thai translations by @Tonwalter888\n- Fixes app crash when sharing audio on iPad\n- Fixes app crash when searching for audio\n- Authorization improvements on latest versions by @Tonwalter888\n- AV switch improvements by @Tonwalter888\n- Background playback improvements by @Tonwalter888\n- Cast improvements by @Tonwalter888\n- Ad removal improvements by @Tonwalter888\n- Premium hooks improvements by @Tonwalter888\n- Autoplay improvements by @Tonwalter888\n- Skip content warning fix for the latest versions by @Tonwalter888\n- Code syntax fixes by @shreybaviskar"
+          "localizedDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
         }
       ],
       "version": "9.11.2",
-      "size": 93336122
+      "size": 93628401
     },
     {
       "name": "YouTube Music Ultimate (iOS14+)",
@@ -162,14 +162,14 @@
         {
           "version": "7.02.2",
           "minOSVersion": "14.0",
-          "date": "2026-03-18T16:30:00+03:00",
-          "size": 64078080,
+          "date": "2026-03-19T10:30:00+03:00",
+          "size": 64370359,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.02.2.ipa",
-          "localizedDescription": "YouTube Music Ultimate v2.4\n\n- First release based on community contributions\n- Adds Italian localization by @basketshoe\n- Adds Thai translations by @Tonwalter888\n- Fixes app crash when sharing audio on iPad\n- Fixes app crash when searching for audio\n- Authorization improvements on latest versions by @Tonwalter888\n- AV switch improvements by @Tonwalter888\n- Background playback improvements by @Tonwalter888\n- Cast improvements by @Tonwalter888\n- Ad removal improvements by @Tonwalter888\n- Premium hooks improvements by @Tonwalter888\n- Autoplay improvements by @Tonwalter888\n- Skip content warning fix for the latest versions by @Tonwalter888\n- Code syntax fixes by @shreybaviskar"
+          "localizedDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
         }
       ],
       "version": "7.02.2",
-      "size": 64078080
+      "size": 64370359
     },
     {
       "name": "Infuse Plus (iOS18+)",
