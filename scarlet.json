@@ -102,6 +102,17 @@
       "bundleID": "com.facebook.Messenger",
       "appstore": "com.facebook.Messenger",
       "changelog": "- Initial release"
+    },
+    {
+      "name": "Tweach",
+      "version": "28.8",
+      "icon": "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sile/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3+28.8.ipa",
+      "category": "Tweaked Apps",
+      "description": "Features:\n- Download VODs, Live Streams and Clips in selected quality, including audio only\n- Player customization: hide unwanted controls, live stats overlay, gestures, system player support and more\n- Profile info including HQ profile picture, banner and offline banner downloading\n- Tab bar customization: reorder and hide tabs, set startup tab\n- Import, export and reset preferences, clear cache manually or automatically on startup\n\n*Tweach preferences are available in the Twitch settings or by swiping up on the tab bar*",
+      "bundleID": "tv.twitch",
+      "appstore": "tv.twitch",
+      "changelog": "- Tab bar customization\n- Swipe up gesture for settings\n- Option to remove side buttons\n- Preferences and cache settings"
     }
   ]
 }
