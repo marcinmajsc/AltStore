@@ -543,7 +543,7 @@
       "developerName": "dvntm",
       "subtitle": "Download your favorite Clips, VODs and Live Streams with Tweach",
       "localizedDescription": "Features:\n- Download VODs, Live Streams and Clips in selected quality, including audio only\n- Player customization: hide unwanted controls, live stats overlay, gestures, system player support and more\n- Profile info including HQ profile picture, banner and offline banner downloading\n- Tab bar customization: reorder and hide tabs, set startup tab\n- Import, export and reset preferences, clear cache manually or automatically on startup\n\n*Tweach preferences are available in the Twitch settings or by swiping up on the tab bar*",
-      "iconURL": "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sile/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/icon.png",
       "tintColor": "#864AF6",
       "screenshotURLs": [
         "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img1.jpg",
