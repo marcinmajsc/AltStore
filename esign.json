@@ -30,7 +30,7 @@
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
       "tintColor": "FF0033",
       "isLanZouCloud": 0,
-      "size": 93628401,
+      "size": 93340497,
       "type": 1
     },
     {
@@ -45,7 +45,7 @@
       "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
       "tintColor": "FF0033",
       "isLanZouCloud": 0,
-      "size": 64370359,
+      "size": 64082453,
       "type": 1
     },
     {
@@ -136,6 +136,21 @@
       "tintColor": "AF38EB",
       "isLanZouCloud": 0,
       "size": 73615608,
+      "type": 1
+    },
+    {
+      "name": "Tweach",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "dvntm",
+      "version": "28.8",
+      "versionDate": "2026-04-13T23:30:00+03:00",
+      "versionDescription": "- Tab bar customization\n- Swipe up gesture for settings\n- Option to remove side buttons\n- Preferences and cache settings",
+      "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3+28.8.ipa",
+      "localizedDescription": "Features:\n- Download VODs, Live Streams and Clips in selected quality, including audio only\n- Player customization: hide unwanted controls, live stats overlay, gestures, system player support and more\n- Profile info including HQ profile picture, banner and offline banner downloading\n- Tab bar customization: reorder and hide tabs, set startup tab\n- Import, export and reset preferences, clear cache manually or automatically on startup\n\n*Tweach preferences are available in the Twitch settings or by swiping up on the tab bar*",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sile/icon.png",
+      "tintColor": "864AF6",
+      "isLanZouCloud": 0,
+      "size": 141040778,
       "type": 1
     }
   ]

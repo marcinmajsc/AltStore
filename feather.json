@@ -110,13 +110,13 @@
           "version": "9.11.2",
           "minOSVersion": "16.0",
           "date": "2026-03-19T10:30:00+03:00",
-          "size": 93628401,
+          "size": 93340497,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
           "localizedDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
         }
       ],
       "version": "9.11.2",
-      "size": 93628401
+      "size": 93340497
     },
     {
       "name": "YouTube Music Ultimate (iOS14+)",
@@ -163,13 +163,13 @@
           "version": "7.02.2",
           "minOSVersion": "14.0",
           "date": "2026-03-19T10:30:00+03:00",
-          "size": 64370359,
+          "size": 64082453,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_7.02.2.ipa",
           "localizedDescription": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
         }
       ],
       "version": "7.02.2",
-      "size": 64370359
+      "size": 64082453
     },
     {
       "name": "Infuse Plus (iOS18+)",
@@ -536,6 +536,59 @@
       ],
       "version": "511.0.0",
       "size": 73615608
+    },
+    {
+      "name": "Tweach",
+      "bundleIdentifier": "tv.twitch",
+      "developerName": "dvntm",
+      "subtitle": "Download your favorite Clips, VODs and Live Streams with Tweach",
+      "localizedDescription": "Features:\n- Download VODs, Live Streams and Clips in selected quality, including audio only\n- Player customization: hide unwanted controls, live stats overlay, gestures, system player support and more\n- Profile info including HQ profile picture, banner and offline banner downloading\n- Tab bar customization: reorder and hide tabs, set startup tab\n- Import, export and reset preferences, clear cache manually or automatically on startup\n\n*Tweach preferences are available in the Twitch settings or by swiping up on the tab bar*",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sile/icon.png",
+      "tintColor": "#864AF6",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/Tweach/refs/heads/main/sileo/img6.jpg"
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "Twitch needs permission to access the camera on this device to stream live video and change your profile image.",
+          "NSUserTrackingUsageDescription": "Your iOS advertising ID and device data will be used to support creators and provide a personal ad experience.",
+          "NSPhotoLibraryAddUsageDescription": "Twitch needs permission to write to your photo library in order to save images.",
+          "NSLocalNetworkUsageDescription": "Twitch uses the local network to discover Cast-enabled devices on your WiFi network.",
+          "NSMicrophoneUsageDescription": "Twitch needs permission to access the microphone on this device to stream live video."
+        }
+      },
+      "versions": [
+        {
+          "version": "28.8",
+          "minOSVersion": "16.4",
+          "date": "2026-04-13T23:30:00+03:00",
+          "size": 141040778,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3+28.8.ipa",
+          "localizedDescription": "- Tab bar customization\n- Swipe up gesture for settings\n- Option to remove side buttons\n- Preferences and cache settings"
+        }
+      ],
+      "version": "28.8",
+      "size": 141040778
     }
   ],
   "news": [
