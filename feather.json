@@ -579,16 +579,16 @@
       },
       "versions": [
         {
-          "version": "28.8",
+          "version": "28.9",
           "minOSVersion": "16.4",
-          "date": "2026-04-13T23:30:00+03:00",
-          "size": 141040778,
-          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3+28.8.ipa",
-          "localizedDescription": "- Tab bar customization\n- Swipe up gesture for settings\n- Option to remove side buttons\n- Preferences and cache settings"
+          "date": "2026-04-15T01:00:00+03:00",
+          "size": 142495204,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3.1+28.9.ipa",
+          "localizedDescription": "Tweach v2.3.1:\n- Added a save action for downloads\n- Added a login reminder\n- Added Italian localization (credits to basketshoe)\n- Added Polish localization (credits to marcinmajsc)\n- Fixed issues on Twitch v23.9 and added support for v28.9\n- Fixed swipe-up gesture on devices without a notch"
         }
       ],
-      "version": "28.8",
-      "size": 141040778
+      "version": "28.9",
+      "size": 142495204
     }
   ],
   "news": [
