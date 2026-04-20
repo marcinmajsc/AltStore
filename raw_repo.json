@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "YouTube Plus",
+      "name": "YouTube Plus (iOS16+)",
       "bundleIdentifier": "com.google.ios.youtube",
       "subtitle": "YouTube Plus with additional tweaks",
       "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
@@ -32,7 +32,7 @@
       "size": 122640998
     },
     {
-      "name": "YouTube Plus",
+      "name": "YouTube Plus (iOS15+)",
       "bundleIdentifier": "com.google.ios.youtube",
       "subtitle": "YouTube Plus with additional tweaks",
       "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
@@ -63,7 +63,7 @@
       "size": 115351239
     },
     {
-      "name": "YouTube Plus",
+      "name": "YouTube Plus (iOS14+)",
       "bundleIdentifier": "com.google.ios.youtube",
       "subtitle": "YouTube Plus with additional tweaks",
       "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
