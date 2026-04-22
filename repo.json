@@ -463,5 +463,17 @@
         }
       ]
     }
+  ],
+  "news": [
+    {
+      "title": "From version 5.2, YTPlus requires a subscription",
+      "identifier": "News1",
+      "caption": "Starting from version 5.2, YTPlus requires a Patreon subscription (activation in YTPlus settings).\n\nThis subscription applies strictly to YTPlus tweak features only and is not affiliated with YouTube or any other tweaks.\n\nThe last free version is 5.2b4.",
+      "tintColor": "#E36678",
+      "imageURL": "https://raw.githubusercontent.com/marcinmajsc/YTLite/refs/heads/test/Resources/news1.png",
+      "url": "https://patreon.com/dayanch96",
+      "date": "2026-04-22",
+      "notify": true
+    }
   ]
 }
