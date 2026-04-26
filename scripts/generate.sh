@@ -294,7 +294,7 @@ generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
         downloadURL: .downloadURL,
         localizedDescription: .versionDescription
     }))
-  )
+  ),
   version: .version,
   size: .size
 })' "$APPS_MERGED_JSON"
