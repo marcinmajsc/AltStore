@@ -277,22 +277,24 @@ generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
     entitlements: .entitlements,
     privacy: .privacy
   },
-  versions: [{
-    version: .version,
-    minOSVersion: .minOSVersion,
-    date: .date,
-    size: .size,
-    downloadURL: .downloadURL,
-    localizedDescription: .versionDescription
-  }]
-  + (.extraVersions | map({
+  versions: (
+    [{
       version: .version,
       minOSVersion: .minOSVersion,
       date: .date,
       size: .size,
       downloadURL: .downloadURL,
       localizedDescription: .versionDescription
-    })),
+    }]
+    + (.extraVersions | map({
+        version: .version,
+        minOSVersion: .minOSVersion,
+        date: .date,
+        size: .size,
+        downloadURL: .downloadURL,
+        localizedDescription: .versionDescription
+    }))
+  ),
   version: .version,
   size: .size
 })'
