@@ -117,7 +117,13 @@ echo "apps_full.json has been successfully generated"
 echo "Merging duplicate bundle IDs for repo/sidestore..."
 
 jq '
-  group_by(.bundleIdentifier) |
+  group_by(
+    if .displayName == "YouTube Plus FREE" then
+      "\(.bundleIdentifier)::\(.displayName)"
+    else
+      .bundleIdentifier
+    end
+  ) |
   map(
     sort_by(.version | split(".") | map(tonumber)) | reverse |
     .[0] as $primary |
