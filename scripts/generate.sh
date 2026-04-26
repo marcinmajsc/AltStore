@@ -284,7 +284,7 @@ generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
     size: .size,
     downloadURL: .downloadURL,
     localizedDescription: .versionDescription
-  }],
+  }]
   + (.extraVersions | map({
       version: .version,
       minOSVersion: .minOSVersion,
