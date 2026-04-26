@@ -38,6 +38,17 @@
       "changelog": "YouTube Plus v5.2.1\n\nIMPORTANT: Starting from this version, YTPlus requires an active Patreon subscription for full access. If you prefer free usage, please stay on version 5.2b4.\n\nFIXED:\n - Fixed settings not updating correctly\n - Fixed crashes when navigating to certain cells from search results\n - Fixed incorrect playback speed display in controls\n - Fixed visual glitch in live video ring\n\nIMPROVED:\n - Improved SponsorBlock skip logic\n - Improved swipe-to-seek with real-time timestamp display\n - Improved Control Center skip forward/backward actions\n\nADDED:\n - Added option to hide the 'More videos' button in the overlay"
     },
     {
+      "name": "YouTube Plus FREE",
+      "version": "20.42.3",
+      "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2b4+20.42.3.ipa",
+      "category": "Tweaked Apps",
+      "description": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
+      "bundleID": "com.google.ios.youtube",
+      "appstore": "com.google.ios.youtube",
+      "changelog": "LATEST FREE VERSION YTPLUS 5.2b4\n\nFIXES:\nFixed Shorts overlay issues\nFixed playback issues\nFixed “Hold to speed” gesture in Shorts\nFixed big gap under progress bar when action bar is disabled\nFixed colored progress bar issues (now supports gradient color for watched progress)\nFixed issue where some buttons under the player were not hiding\nFixed transparent background in the “Explore” sidebar\nFixed hiding options in YouTube sheet and added ability to hide the “Feedback” element\nFixed crash on live videos when original captions were set as preferred\nFixed “Remember loop mode” not saving correctly\n\nNEW OPTIONS:\nAdded option to hide “Hype” and “Stop Ads” buttons under the player\nAdded option to hide YouTube snackbars (HUD messages in player)\nAdded option to hide Products in Shorts\nAdded option to remove Comment bar in Shorts\nAdded option to remove Audio button in Shorts\nAdded option to exclude auto-dubbed audio tracks from selection\nAdded 'Tap to seek gesture' in Player settings\n\nUI IMPROVEMENTS:\nAdded system theme support for YTPlus player toast (playback speed, brightness, volume)\nRemoved vibrancy effect from YTPlus player toast\nEnabling iPad-style interface now also enables floating keyboard"
+    },
+    {
       "name": "YouTube Music Ultimate",
       "version": "9.11.2",
       "icon": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",

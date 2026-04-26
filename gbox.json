@@ -6,7 +6,7 @@
   "sourceLinkTitle": "Patreon",
   "sourceLinkUrl": "https://patreon.com/dayanch96",
   "sourceImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
-  "sourceUpdateTime": "2026-04-26T04:09:26+03:00",
+  "sourceUpdateTime": "2026-04-26T04:50:58+03:00",
   "sourceDescription": "Welcome to the official GBox repository of Dan's Workshop!\n\nHere, you can explore and download all of my free tweaked apps.",
   "appCategories": [
     "Apps"
@@ -40,6 +40,16 @@
       "appVersion": "19.20.2",
       "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
       "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2.1+19.20.2.ipa",
+      "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
+    },
+    {
+      "appType": "SELF_SIGN",
+      "appCateIndex": 0,
+      "appUpdateTime": "2025-11-05T21:00:00+03:00",
+      "appName": "YouTube Plus FREE",
+      "appVersion": "20.42.3",
+      "appImage": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "appPackage": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2b4+20.42.3.ipa",
       "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings"
     },
     {

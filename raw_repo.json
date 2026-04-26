@@ -94,6 +94,37 @@
       "size": 109571126
     },
     {
+      "name": "YouTube Plus FREE",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "subtitle": "YouTube Plus with additional tweaks",
+      "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
+      "tintColor": "#E36678",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr1.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr2.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr3.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr4.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr5.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr6.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr7.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr8.jpg",
+        "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/scr9.jpg"
+      ],
+      "versions": [
+        {
+          "version": "20.42.3",
+          "minOSVersion": "16.0",
+          "date": "2025-11-05T21:00:00+03:00",
+          "size": 121795036,
+          "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2b4+20.42.3.ipa",
+          "localizedDescription": "LATEST FREE VERSION YTPLUS 5.2b4\n\nFIXES:\nFixed Shorts overlay issues\nFixed playback issues\nFixed “Hold to speed” gesture in Shorts\nFixed big gap under progress bar when action bar is disabled\nFixed colored progress bar issues (now supports gradient color for watched progress)\nFixed issue where some buttons under the player were not hiding\nFixed transparent background in the “Explore” sidebar\nFixed hiding options in YouTube sheet and added ability to hide the “Feedback” element\nFixed crash on live videos when original captions were set as preferred\nFixed “Remember loop mode” not saving correctly\n\nNEW OPTIONS:\nAdded option to hide “Hype” and “Stop Ads” buttons under the player\nAdded option to hide YouTube snackbars (HUD messages in player)\nAdded option to hide Products in Shorts\nAdded option to remove Comment bar in Shorts\nAdded option to remove Audio button in Shorts\nAdded option to exclude auto-dubbed audio tracks from selection\nAdded 'Tap to seek gesture' in Player settings\n\nUI IMPROVEMENTS:\nAdded system theme support for YTPlus player toast (playback speed, brightness, volume)\nRemoved vibrancy effect from YTPlus player toast\nEnabling iPad-style interface now also enables floating keyboard"
+        }
+      ],
+      "version": "20.42.3",
+      "size": 121795036
+    },
+    {
       "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
       "subtitle": "The best enhancer for YouTube Music on iOS",
