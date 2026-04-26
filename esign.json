@@ -4,7 +4,7 @@
   "sourceURL": "https://github.com/dvntm0/AltStore/raw/refs/heads/main/esign.json",
   "apps": [
     {
-      "name": "YouTube Plus (iOS16+)",
+      "name": "YouTube Plus",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "dvntm",
       "version": "21.16.2",
@@ -49,7 +49,7 @@
       "type": 1
     },
     {
-      "name": "YouTube Music Ultimate (iOS16+)",
+      "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
       "developerName": "dvntm",
       "version": "9.11.2",
@@ -79,7 +79,7 @@
       "type": 1
     },
     {
-      "name": "Infuse Plus (iOS18+)",
+      "name": "Infuse Plus",
       "bundleIdentifier": "com.firecore.infuse",
       "developerName": "dvntm",
       "version": "8.3.9",

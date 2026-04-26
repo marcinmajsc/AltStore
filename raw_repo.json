@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "YouTube Plus (iOS16+)",
+      "name": "YouTube Plus",
       "bundleIdentifier": "com.google.ios.youtube",
       "subtitle": "YouTube Plus with additional tweaks",
       "localizedDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
@@ -94,7 +94,7 @@
       "size": 109571126
     },
     {
-      "name": "YouTube Music Ultimate (iOS16+)",
+      "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
       "subtitle": "The best enhancer for YouTube Music on iOS",
       "localizedDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
@@ -148,7 +148,7 @@
       "size": 64082453
     },
     {
-      "name": "Infuse Plus (iOS18+)",
+      "name": "Infuse Plus",
       "bundleIdentifier": "com.firecore.infuse",
       "subtitle": "Enhancer for Infuse app",
       "localizedDescription": "Features:\n- Requires iOS 18+\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",

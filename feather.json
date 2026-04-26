@@ -138,7 +138,7 @@
       "size": 73615608
     },
     {
-      "name": "Infuse Plus (iOS18+)",
+      "name": "Infuse Plus",
       "bundleIdentifier": "com.firecore.infuse",
       "developerName": "dvntm",
       "subtitle": "Enhancer for Infuse app",
@@ -209,7 +209,7 @@
       "size": 74592875
     },
     {
-      "name": "YouTube Plus (iOS16+)",
+      "name": "YouTube Plus",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "dvntm",
       "subtitle": "YouTube Plus with additional tweaks",
@@ -287,7 +287,7 @@
       "size": 123012387
     },
     {
-      "name": "YouTube Music Ultimate (iOS16+)",
+      "name": "YouTube Music Ultimate",
       "bundleIdentifier": "com.google.ios.youtubemusic",
       "developerName": "dvntm",
       "subtitle": "The best enhancer for YouTube Music on iOS",

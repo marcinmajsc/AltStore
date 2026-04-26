@@ -5,7 +5,7 @@
   },
   "Tweaked": [
     {
-      "name": "YouTube Plus (iOS16+)",
+      "name": "YouTube Plus",
       "version": "21.16.2",
       "icon": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
       "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytp_5.2.1+21.16.2.ipa",
@@ -38,7 +38,7 @@
       "changelog": "YouTube Plus v5.2.1\n\nIMPORTANT: Starting from this version, YTPlus requires an active Patreon subscription for full access. If you prefer free usage, please stay on version 5.2b4.\n\nFIXED:\n - Fixed settings not updating correctly\n - Fixed crashes when navigating to certain cells from search results\n - Fixed incorrect playback speed display in controls\n - Fixed visual glitch in live video ring\n\nIMPROVED:\n - Improved SponsorBlock skip logic\n - Improved swipe-to-seek with real-time timestamp display\n - Improved Control Center skip forward/backward actions\n\nADDED:\n - Added option to hide the 'More videos' button in the overlay"
     },
     {
-      "name": "YouTube Music Ultimate (iOS16+)",
+      "name": "YouTube Music Ultimate",
       "version": "9.11.2",
       "icon": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
       "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/ytmu_9.11.2.ipa",
@@ -60,7 +60,7 @@
       "changelog": "YouTube Music Ultimate v2.4.1\n\n- Fixes login issues\n- Adds cairo-style downloading icon"
     },
     {
-      "name": "Infuse Plus (iOS18+)",
+      "name": "Infuse Plus",
       "version": "8.3.9",
       "icon": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
       "down": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/infp_2.5+8.3.9.ipa",
