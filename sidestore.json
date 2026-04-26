@@ -227,8 +227,7 @@
           "date": "2026-04-24T20:00:00+03:00",
           "size": 143131013,
           "downloadURL": "https://github.com/dvntm0/AltStore/releases/download/0.0.1/tweach_2.3.3+29.1.ipa",
-          "localizedDescription": "Tweach v2.3.3:\n- Fixed swipe-up gesture on tab bar\n- Fixed alert actions not working (Import settings, Log out, and etc.)",
-          "marketingVersion": "v2.3.3"
+          "localizedDescription": "Tweach v2.3.3:\n- Fixed swipe-up gesture on tab bar\n- Fixed alert actions not working (Import settings, Log out, and etc.)"
         }
       ]
     }
