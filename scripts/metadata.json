@@ -1,6 +1,6 @@
 {
   "com.google.ios.youtube": {
-    "displayName": "YouTube Plus (iOS16+)",
+    "displayName": "YouTube Plus",
     "subtitle": "YouTube Plus with additional tweaks",
     "appDescription": "This version contains YouTube Plus, YouPiP, YTUHD, Return YouTube Dislikes and Open in Safari extension\n\nFeatures:\n- Download videos, audio (including audio track selection), thumbnails, posts, and profile pictures\n- Copy video, comment, and post information\n- Interface customization: Remove feed elements, reorder tabs, enable OLED mode, and as use Shorts-only mode\n- Player settings: Gestures, default quality, preferred audio track\n- Save, Load and Restore settings. Clear cache once or automatically on app startup\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Plus preferences can be found in the YouTube settings",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/YTLite/refs/heads/main/Resources/icon.png",
@@ -66,7 +66,7 @@
   },
 
   "com.google.ios.youtubemusic": {
-    "displayName": "YouTube Music Ultimate (iOS16+)",
+    "displayName": "YouTube Music Ultimate",
     "subtitle": "The best enhancer for YouTube Music on iOS",
     "appDescription": "Features:\n- Download audios, cover images\n- Remove ads\n- Background playback\n- Interface customization: Remove tabs or other elements, enable OLED mode\n- Player settings: Modify player elements, default playback mode\n- Built-in SponsorBlock\n- And much, much more\n\nYouTube Music Ultimate preferences can be found under YouTube Music settings",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/refs/heads/main/Resources/icon.png",
@@ -102,7 +102,7 @@
   },
 
   "com.firecore.infuse.ios18": {
-    "displayName": "Infuse Plus (iOS18+)",
+    "displayName": "Infuse Plus",
     "subtitle": "Enhancer for Infuse app",
     "appDescription": "Features:\n- Requires iOS 18+\n- Pro features\n- Background playback\n- Double tap to Play/Pause gesture\n- Custom seek time for Seek Forward/Backward buttons\n- Custom double tap to skip time\n- And more\n\nNote: Infuse Plus preferences can be found in the Settings tab",
     "iconURL": "https://raw.githubusercontent.com/dayanch96/InfusePlus/refs/heads/main/Resources/icon.png",
