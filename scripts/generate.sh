@@ -118,19 +118,22 @@ echo "Merging duplicate bundle IDs for repo/sidestore..."
 
 jq '
   group_by(.bundleIdentifier) |
-  map(
-    sort_by(.version | split(".") | map(tonumber)) | reverse |
-    .[0] as $primary |
-    (.[1:] | map({
-      version: .version,
-      minOSVersion: .minOSVersion,
-      date: .date,
-      size: .size,
-      downloadURL: .downloadURL,
-      versionDescription: .versionDescription
-    })) as $extra |
-    $primary + { extraVersions: $extra }
-  )
+  map(if .[0].bundleIdentifier == "com.google.ios.youtubefree" then . else
+    [
+      sort_by(.version | split(".") | map(tonumber)) | reverse |
+      .[0] as $primary |
+      (.[1:] | map({
+        version: .version,
+        minOSVersion: .minOSVersion,
+        date: .date,
+        size: .size,
+        downloadURL: .downloadURL,
+        versionDescription: .versionDescription
+      })) as $extra |
+      $primary + { extraVersions: $extra }
+    ]
+  end) |
+  flatten
 ' "$APPS_FULL_JSON" > "$APPS_MERGED_JSON"
 
 echo "Merge complete"
