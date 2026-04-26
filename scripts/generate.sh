@@ -117,9 +117,10 @@ echo "apps_full.json has been successfully generated"
 echo "Merging duplicate bundle IDs for repo/sidestore..."
 
 jq '
-  group_by(.bundleIdentifier) |
-  map(if .[0].bundleIdentifier == "com.google.ios.youtubefree" then . else
-    [
+  (map(select(.bundleIdentifier == "com.google.ios.youtubefree"))) as $excluded |
+  (map(select(.bundleIdentifier != "com.google.ios.youtubefree"))
+    | group_by(.bundleIdentifier)
+    | map(
       sort_by(.version | split(".") | map(tonumber)) | reverse |
       .[0] as $primary |
       (.[1:] | map({
@@ -131,9 +132,8 @@ jq '
         versionDescription: .versionDescription
       })) as $extra |
       $primary + { extraVersions: $extra }
-    ]
-  end) |
-  flatten
+    )) as $merged |
+  ($merged + $excluded)
 ' "$APPS_FULL_JSON" > "$APPS_MERGED_JSON"
 
 echo "Merge complete"
