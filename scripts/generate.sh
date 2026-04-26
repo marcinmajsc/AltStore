@@ -294,10 +294,10 @@ generate_store_json "feather.json" "$FEATHER_JSON" "apps" 'map({
         downloadURL: .downloadURL,
         localizedDescription: .versionDescription
     }))
-  ),
+  )
   version: .version,
   size: .size
-})'
+})' "$APPS_MERGED_JSON"
 
 generate_store_json "raw_repo.json" "$RAW_REPO_JSON" "apps" 'map({
   name: .displayName,
